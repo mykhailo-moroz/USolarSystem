@@ -2,7 +2,7 @@
 
 namespace SolarSystem.Modules.Core
 {
-    public class Landing : MonoBehaviour
+    public class LandingController : MonoBehaviour
     {
         private void Start()
         {

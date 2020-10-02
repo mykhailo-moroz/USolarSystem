@@ -7,9 +7,14 @@
       <e p="Assets" t="Include">
         <e p="Modules" t="Include">
           <e p="Core" t="Include">
-            <e p="ApplicationManager.cs" t="Include" />
-            <e p="SceneConfigs.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="IServiceLocator.cs" t="Include" />
+            </e>
             <e p="SolarSystem.Core.asmdef" t="Include" />
+            <e p="Static" t="Include">
+              <e p="Game.cs" t="Include" />
+              <e p="GameServices.cs" t="Include" />
+            </e>
           </e>
           <e p="GamePlay" t="Include">
             <e p="Scripts" t="Include">
@@ -21,16 +26,23 @@
             <e p="SolarSystem.GamePlay.asmdef" t="Include" />
           </e>
           <e p="Landing" t="Include">
-            <e p="Landing.cs" t="Include" />
+            <e p="LandingController.cs" t="Include" />
             <e p="SolarSystem.Landing.asmdef" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="MainMenu" t="Include">
+              <e p="MainMenuController.cs" t="Include" />
+            </e>
+            <e p="SolarSystem.UI.asmdef" t="Include" />
           </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="SolarSystem.Core.csproj" t="IncludeRecursive" />
+      <e p="SolarSystem.GamePlay.csproj" t="IncludeRecursive" />
       <e p="SolarSystem.Landing.csproj" t="IncludeRecursive" />
-      <e p="SolerSystem.Game.csproj" t="IncludeRecursive" />
+      <e p="SolarSystem.UI.csproj" t="IncludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
       <e p="USolarSystem.sln" t="IncludeFlat" />
     </e>
