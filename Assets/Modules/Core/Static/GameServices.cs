@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace SolarSystem.Modules.GamePlay.Scripts.Managers
+namespace SolarSystem.Modules.Core.Static
 {
     public class GameServices
     {
         public static void Init(Action onComplete)
         {
-            
+            onComplete.Invoke();
         }
     }
 }

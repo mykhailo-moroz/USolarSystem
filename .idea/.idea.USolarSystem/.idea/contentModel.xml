@@ -7,8 +7,26 @@
       <e p="Assets" t="Include">
         <e p="Modules" t="Include">
           <e p="Core" t="Include">
+            <e p="Config" t="Include">
+              <e p="GameConfig.cs" t="Include" />
+            </e>
             <e p="Interfaces" t="Include">
               <e p="IServiceLocator.cs" t="Include" />
+            </e>
+            <e p="Kernel" t="Include">
+              <e p="SceneLoading" t="Include">
+                <e p="Abstract" t="Include">
+                  <e p="SceneLoadService.cs" t="Include" />
+                </e>
+                <e p="Inerfaces" t="Include">
+                  <e p="ISceneLoader.cs" t="Include" />
+                  <e p="ISceneLoadService.cs" t="Include" />
+                  <e p="IScenePreloader.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Services" t="Include">
+              <e p="DefaultSceneLoadService.cs" t="Include" />
             </e>
             <e p="SolarSystem.Core.asmdef" t="Include" />
             <e p="Static" t="Include">

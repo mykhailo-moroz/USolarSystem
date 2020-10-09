@@ -20,29 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd62b6a0-1505-465a-a07e-c93608f6e266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Static/Game.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Static/GameServices.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Static/GameServices.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenu.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenu.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Config.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Config/GameConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Config/GameConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Abstract.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Abstract/SceneLoadService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Abstract/SceneLoadService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Inerfaces.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Inerfaces/ISceneLoadService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Inerfaces/ISceneLoadService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Inerfaces/ISceneLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Inerfaces/ISceneLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Inerfaces/IScenePreloader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Inerfaces/IScenePreloader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Services.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Services/DefaultSceneLoadService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Services/DefaultSceneLoadService.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/ApplicationManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/ApplicationManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/SceneConfigs.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/SceneConfigs.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/SolarSystem.GamePlay.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/SolarSystem.GamePlay.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Landing/Landing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Landing/Landing.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Landing/SolarSystem.Landing.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Landing/SolarSystem.Landing.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/SolarSystem.Core.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/SolarSystem.Core.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Static/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Static/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Static/GameServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Static/GameServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +69,20 @@
         <option value="$PROJECT_DIR$/Assets/Modules/Game/Scripts/Managers/ILevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Game/Scripts/Managers/LevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/ILevelController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Static/Game.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Static/GameServices.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/SolarSystem.GamePlay.asmdef" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Static/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Static/GameServices.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IScenePreloader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/ISceneLoadService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/ISceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Abstract/SceneLoadService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Abstract/SceneLoadServiceBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Services/DefaultSceneLoadService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Config/GameConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Abstract/SceneLoadService.cs" />
       </list>
     </option>
   </component>
@@ -128,6 +140,8 @@
       <workItem from="1601574300730" duration="1534000" />
       <workItem from="1601660113470" duration="956000" />
       <workItem from="1601662120675" duration="1010000" />
+      <workItem from="1602167753013" duration="1114000" />
+      <workItem from="1602251982514" duration="7933000" />
     </task>
     <servers />
   </component>
