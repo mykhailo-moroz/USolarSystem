@@ -20,33 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd62b6a0-1505-465a-a07e-c93608f6e266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Config.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Config/GameConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Config/GameConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Abstract.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Abstract/SceneLoadService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Abstract/SceneLoadService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Inerfaces.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Inerfaces/ISceneLoadService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Inerfaces/ISceneLoadService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Inerfaces/ISceneLoader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Inerfaces/ISceneLoader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Inerfaces/IScenePreloader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Inerfaces/IScenePreloader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Services.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Services/DefaultSceneLoadService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Services/DefaultSceneLoadService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/ApplicationState.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/ApplicationState/ApplicationStateStack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/ApplicationState/ApplicationStateStack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/ApplicationState/Interfaces.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/ApplicationState/Interfaces/IApplicationState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/ApplicationState/Interfaces/IApplicationState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/ApplicationState/Interfaces/IApplicationStateStack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Kernel/ApplicationState/Interfaces/IApplicationStateStack.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/SolarSystem.Core.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/SolarSystem.Core.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Static/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Static/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Static/GameServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Static/GameServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +66,10 @@
         <option value="$PROJECT_DIR$/Assets/Modules/Core/Config/GameConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Core/Kernel/SceneLoading/Abstract/SceneLoadService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Kernel/ApplicationState/IApplicationStateStack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Kernel/ApplicationState/Interfaces/IApplicationState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Kernel/ApplicationState/Interfaces/IApplicationStateStack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Kernel/ApplicationState/ApplicationStateStack.cs" />
       </list>
     </option>
   </component>
@@ -142,6 +129,12 @@
       <workItem from="1601662120675" duration="1010000" />
       <workItem from="1602167753013" duration="1114000" />
       <workItem from="1602251982514" duration="7933000" />
+      <workItem from="1602324843419" duration="1942000" />
+      <workItem from="1602342393523" duration="1471000" />
+      <workItem from="1602493808412" duration="594000" />
+      <workItem from="1602576106352" duration="1320000" />
+      <workItem from="1602597244104" duration="678000" />
+      <workItem from="1602754040493" duration="1201000" />
     </task>
     <servers />
   </component>
