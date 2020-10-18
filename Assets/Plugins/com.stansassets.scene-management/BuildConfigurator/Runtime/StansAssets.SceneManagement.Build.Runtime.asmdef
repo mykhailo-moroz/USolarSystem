@@ -1,0 +1,15 @@
+{
+    "name": "StansAssets.SceneManagement.Build.Runtime",
+    "references": [
+        "StansAssets.Foundation",
+        "StansAssets.Plugins"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
