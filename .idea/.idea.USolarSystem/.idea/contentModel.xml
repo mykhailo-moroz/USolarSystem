@@ -10,10 +10,16 @@
             <e p="Config" t="Include">
               <e p="GameConfig.cs" t="Include" />
             </e>
+            <e p="Enums" t="Include">
+              <e p="GameState.cs" t="Include" />
+            </e>
             <e p="Interfaces" t="Include">
-              <e p="IServiceLocator.cs" t="Include" />
+              <e p="IReadOnlyServiceLocator.cs" t="Include" />
             </e>
             <e p="SolarSystem.Core.asmdef" t="Include" />
+            <e p="States" t="Include">
+              <e p="ApplicationState.cs" t="Include" />
+            </e>
             <e p="Static" t="Include">
               <e p="Game.cs" t="Include" />
               <e p="GameServices.cs" t="Include" />

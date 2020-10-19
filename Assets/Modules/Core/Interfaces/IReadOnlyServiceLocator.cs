@@ -1,6 +1,6 @@
 ﻿namespace SolarSystem.Modules.Core.Interfaces
 {
-    public interface IServiceLocator
+    public interface IReadOnlyServiceLocator
     {
         T Get<T>();
     }
