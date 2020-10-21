@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62fe6d55-baf0-47dc-a20f-884d6382231a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Abstract.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Abstract/ApplicationModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Abstract/ApplicationModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/CoreModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/CoreModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/DefaultSceneLoadService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/DefaultSceneLoadService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/PreloadManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/PreloadManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/ServiceLocator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/ServiceLocator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IPreloadService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IPreloadService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/ISceneService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/ISceneService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Services.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling/GameObjectsPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling/GameObjectsPool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling/IPoolingService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling/IPoolingService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling/PoolableGameObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling/PoolableGameObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/States/GameAppState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/States/GameAppState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/States/MenuAppState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/States/MenuAppState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/States/PauseAppState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/States/PauseAppState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/GamePlayModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/GamePlayModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/Preloader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/Preloader/DefaultPreloader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/Preloader/DefaultPreloader.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Config/GameConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Config/AppConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Config/GameConfig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Config/AppConfig.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/ServiceLocator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IReadOnlyServiceLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IReadOnlyServiceLocator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/SolarSystem.Core.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/SolarSystem.Core.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/States/ApplicationState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/States/ApplicationState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Static/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Static/Game.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/LevelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/SolarSystem.GamePlay.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/SolarSystem.GamePlay.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Landing/Landing.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Landing/Landing.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Landing/SolarSystem.Landing.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Landing/SolarSystem.Landing.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/UI/SolarSystem.UI.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/UI/SolarSystem.UI.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/States/GameAppState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/States/PauseAppState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IReadOnlyServiceLocator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/GamePlayModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/PreloadManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/com.stansassets.scene-management/Runtime/Utilities/ApplicationStateStack/IReadOnlyApplicationStateStack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/com.stansassets.scene-management/Runtime/Utilities/ApplicationStateStack/IApplicationStateStack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/LevelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/ServiceLocator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IApplicationModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Abstract/ApplicationModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling/PoolableGameObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling/IPoolingService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/CoreModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/ISceneService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling/GameObjectsPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/States/MenuAppState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/States/ApplicationState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IPreloadService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/UI/Preloader/DefaultPreloader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Config/AppConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/DefaultSceneLoadService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1j75ORAipvetRNku9vCDk4xnohQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502036" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30017453" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="2736">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="2736" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62fe6d55-baf0-47dc-a20f-884d6382231a" name="Default Changelist" comment="" />
+      <created>1603142256493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603142256493</updated>
+      <workItem from="1603142262783" duration="284000" />
+      <workItem from="1603142651114" duration="1435000" />
+      <workItem from="1603201647937" duration="1843000" />
+      <workItem from="1603275169479" duration="2412000" />
+      <workItem from="1603278149847" duration="2700000" />
+      <workItem from="1603282519990" duration="2691000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1750" height="379" key="GridCell.Tab.0.bottom" timestamp="1603285248027">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.0.bottom/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248027" />
+    <state width="1750" height="379" key="GridCell.Tab.0.center" timestamp="1603285248026">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.0.center/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248026" />
+    <state width="1750" height="379" key="GridCell.Tab.0.left" timestamp="1603285248026">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.0.left/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248026" />
+    <state width="1750" height="379" key="GridCell.Tab.0.right" timestamp="1603285248026">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.0.right/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248026" />
+    <state width="1750" height="379" key="GridCell.Tab.1.bottom" timestamp="1603285248027">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.1.bottom/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248027" />
+    <state width="1750" height="379" key="GridCell.Tab.1.center" timestamp="1603285248027">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.1.center/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248027" />
+    <state width="1750" height="379" key="GridCell.Tab.1.left" timestamp="1603285248027">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.1.left/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248027" />
+    <state width="1750" height="379" key="GridCell.Tab.1.right" timestamp="1603285248027">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.1.right/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248027" />
+    <state width="1750" height="379" key="GridCell.Tab.2.bottom" timestamp="1603285248028">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.2.bottom/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248028" />
+    <state width="1750" height="379" key="GridCell.Tab.2.center" timestamp="1603285248028">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.2.center/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248028" />
+    <state width="1750" height="379" key="GridCell.Tab.2.left" timestamp="1603285248028">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.2.left/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248028" />
+    <state width="1750" height="379" key="GridCell.Tab.2.right" timestamp="1603285248028">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.2.right/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248028" />
+    <state width="1750" height="379" key="GridCell.Tab.3.bottom" timestamp="1603285248028">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.3.bottom/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248028" />
+    <state width="1750" height="379" key="GridCell.Tab.3.center" timestamp="1603285248028">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.3.center/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248028" />
+    <state width="1750" height="379" key="GridCell.Tab.3.left" timestamp="1603285248028">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.3.left/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248028" />
+    <state width="1750" height="379" key="GridCell.Tab.3.right" timestamp="1603285248028">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state width="1750" height="379" key="GridCell.Tab.3.right/0.23.1792.1043@0.23.1792.1043" timestamp="1603285248028" />
+    <state x="672" y="253" key="RiderGenerateDialog" timestamp="1603284372475">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="672" y="253" key="RiderGenerateDialog/0.23.1792.1043@0.23.1792.1043" timestamp="1603284372475" />
+    <state x="397" y="183" key="SettingsEditor" timestamp="1603283322709">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="397" y="183" key="SettingsEditor/0.23.1792.1043@0.23.1792.1043" timestamp="1603283322709" />
+    <state x="559" y="252" width="672" height="678" key="search.everywhere.popup" timestamp="1603227404162">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="559" y="252" width="672" height="678" key="search.everywhere.popup/0.23.1792.1043@0.23.1792.1043" timestamp="1603227404162" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" initialLine="26">
+            <startOffsets>
+              <option value="1036" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1056" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs</url>
+          <line>19</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" initialLine="19">
+            <startOffsets>
+              <option value="792" />
+            </startOffsets>
+            <endOffsets>
+              <option value="793" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

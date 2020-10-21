@@ -1,4 +1,7 @@
-﻿using SolarSystem.Modules.Core.Static;
+﻿using SolarSystem.Modules.Core.Config;
+using SolarSystem.Modules.Core.Enums;
+using SolarSystem.Modules.Core.Interfaces;
+using SolarSystem.Modules.Core.Static;
 using UnityEngine;
 
 namespace SolarSystem.Modules.Landing
@@ -7,7 +10,13 @@ namespace SolarSystem.Modules.Landing
     {
         private void Start()
         {
-            GameServices.Init(Game.Init);
+            App.Init(() =>
+            {
+                App.State.Set(GameState.Menu);
+                
+                var sceneService = App.Services.Get<ISceneService>();
+                sceneService.Unload(AppConfig.LandingSceneName, null);
+            });
         }
     }    
 }

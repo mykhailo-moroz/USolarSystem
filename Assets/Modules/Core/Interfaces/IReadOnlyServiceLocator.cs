@@ -2,6 +2,6 @@
 {
     public interface IReadOnlyServiceLocator
     {
-        T Get<T>();
+        TInterface Get<TInterface>();
     }
 }

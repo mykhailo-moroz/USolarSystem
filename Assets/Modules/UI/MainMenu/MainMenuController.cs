@@ -1,6 +1,8 @@
-﻿namespace SolarSystem.Modules.UI.MainMenu
+﻿using UnityEngine;
+
+namespace SolarSystem.Modules.UI.MainMenu
 {
-    public class MainMenuController : UnityEngine.MonoBehaviour
+    public class MainMenuController : MonoBehaviour
     {
         
     }

@@ -1,7 +1,8 @@
 {
     "name": "SolarSystem.Landing",
     "references": [
-        "GUID:fdb534c072d22a7469fe4b9e5be69c14"
+        "GUID:fdb534c072d22a7469fe4b9e5be69c14",
+        "GUID:8c26edb72a5b44ef39c0bd009ec1322d"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
