@@ -1,0 +1,19 @@
+{
+    "name": "StansAssets.SceneManagement.Editor",
+    "references": [
+        "StansAssets.Foundation.Editor",
+        "StansAssets.Foundation",
+        "StansAssets.Plugins",
+        "StansAssets.Plugins.Editor"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": []
+}
