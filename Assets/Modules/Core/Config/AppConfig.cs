@@ -7,5 +7,7 @@
         public static string LandingSceneName = "Landing";
         
         public static string DefaultPreloaderSceneName = "DefaultPreloader";
+
+        public static string TestLevelSceneName = "Level01";
     }
 }

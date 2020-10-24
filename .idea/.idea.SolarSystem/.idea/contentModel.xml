@@ -44,7 +44,6 @@
             </e>
             <e p="Static" t="Include">
               <e p="App.cs" t="Include" />
-              <e p="GameServices.cs" t="Include" />
             </e>
           </e>
           <e p="GamePlay" t="Include">
@@ -63,6 +62,7 @@
           </e>
           <e p="UI" t="Include">
             <e p="MainMenu" t="Include">
+              <e p="IMainMenuController.cs" t="Include" />
               <e p="MainMenuController.cs" t="Include" />
             </e>
             <e p="Preloader" t="Include">

@@ -21,9 +21,10 @@ namespace SolarSystem.Modules.Core.Static
             RegisterModule(new CoreModule());
 
             var preloadService = s_serviceLocator.Get<IPreloadService>();
-            preloadService.PreparePreloader(() =>
+            preloadService?.PreparePreloader(() =>
             {
                 InitApplicationStates();
+                var preloader = new PreloadManager(s_applicationStateStack, preloadService.Preloader);
                 onComplete.Invoke();
             });
         }
@@ -31,6 +32,11 @@ namespace SolarSystem.Modules.Core.Static
         public static void RegisterModule(ApplicationModule module)
         {
             s_serviceLocator.RegisterModule(module);
+        }
+
+        public static void UnregisterModule(string name)
+        {
+            s_serviceLocator.UnregisterModule(name);
         }
 
         private static void InitApplicationStates()

@@ -6,7 +6,7 @@ using UnityEngine.Assertions;
 
 namespace SolarSystem.Modules.Core.Infrastructure
 {
-    internal class DefaultSceneLoadService : SceneLoadService, ISceneService, IPreloadService
+    internal class DefaultSceneLoadService : SceneLoadService, IPreloadService
     {
         public IScenePreloader Preloader { get; private set; }
 

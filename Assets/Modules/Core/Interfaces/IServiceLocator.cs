@@ -7,5 +7,7 @@ namespace SolarSystem.Modules.Core.Interfaces
         void Register<TInterface, TImplementation>() where TImplementation : TInterface;
 
         void RegisterModule(ApplicationModule module);
+
+        void UnregisterModule(string name);
     }
 }

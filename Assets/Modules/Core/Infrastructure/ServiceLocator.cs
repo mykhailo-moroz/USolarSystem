@@ -27,5 +27,10 @@ namespace SolarSystem.Modules.Core.Infrastructure
         {
             m_kernel.Load(module);
         }
+
+        public void UnregisterModule(string name)
+        {
+            m_kernel.Unload(name);
+        }
     }
 }
