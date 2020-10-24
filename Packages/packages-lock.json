@@ -7,6 +7,23 @@
       "dependencies": {},
       "url": "https://registry.npmjs.org"
     },
+    "com.stansassets.plugins-dev-kit": {
+      "version": "file:com.stansassets.plugins-dev-kit",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.stansassets.foundation": "1.0.16"
+      }
+    },
+    "com.stansassets.scene-management": {
+      "version": "file:com.stansassets.scene-management",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.stansassets.plugins-dev-kit": "0.0.6-preview",
+        "com.unity.addressables": "1.16.1"
+      }
+    },
     "com.unity.addressables": {
       "version": "1.16.1",
       "depth": 0,
