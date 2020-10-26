@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fe6d55-baf0-47dc-a20f-884d6382231a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Settings/com.stansassets.scene-management/Editor/Resources/SceneManagementSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Settings/com.stansassets.scene-management/Editor/Resources/SceneManagementSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/com.stansassets.plugins-dev-kit.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/com.stansassets.scene-management.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +132,7 @@
       <workItem from="1603530015103" duration="1812000" />
       <workItem from="1603531889731" duration="764000" />
       <workItem from="1603532769782" duration="190000" />
+      <workItem from="1603536265598" duration="320000" />
     </task>
     <servers />
   </component>
