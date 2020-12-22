@@ -1,14 +1,15 @@
 using System;
 using System.Collections.Generic;
-using StansAssets.SceneManagement.Build;
-using UnityEditor;
+using SolarSystem.BuildConfigurator.Runtime;
+using SolarSystem.Interfces;
+using SolarSystem.Models;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.ResourceManagement.ResourceProviders;
 using UnityEngine.SceneManagement;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Statis
 {
     /// <summary>
     /// Provides methods to perform additive scenes loading.

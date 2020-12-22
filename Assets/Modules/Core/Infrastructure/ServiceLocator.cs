@@ -32,5 +32,10 @@ namespace SolarSystem.Modules.Core.Infrastructure
         {
             m_kernel.Unload(name);
         }
+
+        public bool IsModuleRegistered(string name)
+        {
+            return m_kernel.HasModule(name);
+        }
     }
 }

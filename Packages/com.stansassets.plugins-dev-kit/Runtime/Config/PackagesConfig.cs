@@ -1,4 +1,4 @@
-namespace StansAssets.Plugins
+namespace SolarSystem.Config
 {
     /// <summary>
     /// Common config values for packages

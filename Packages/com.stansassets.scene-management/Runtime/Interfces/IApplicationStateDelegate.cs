@@ -1,6 +1,7 @@
 ﻿using System;
+using SolarSystem.Models;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Interfces
 {
     public interface IApplicationStateDelegate<T> where T : Enum
     {

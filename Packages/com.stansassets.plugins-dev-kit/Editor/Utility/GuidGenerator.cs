@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.Utility
 {
     public static class GuidGenerator
     {

@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
+using SolarSystem.Enums;
 using StansAssets.Foundation.Patterns;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Models
 {
     public class StackOperationEvent<TEnum> : StackEvent<TEnum> where TEnum : Enum
     {

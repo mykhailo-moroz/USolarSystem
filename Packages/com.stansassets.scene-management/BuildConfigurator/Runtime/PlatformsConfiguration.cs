@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace StansAssets.SceneManagement.Build
+namespace SolarSystem.BuildConfigurator.Runtime
 {
     /// <summary>
     /// Build configurations for different platforms

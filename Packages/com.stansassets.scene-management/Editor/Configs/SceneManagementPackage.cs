@@ -1,7 +1,7 @@
+using SolarSystem.Editor.Config;
 using StansAssets.Foundation.Editor;
-using StansAssets.Plugins.Editor;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Editor.Configs
 {
     static class SceneManagementPackage
     {

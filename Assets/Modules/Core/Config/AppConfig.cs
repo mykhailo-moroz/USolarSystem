@@ -2,12 +2,12 @@
 {
     public static class AppConfig
     {
-        public static string MainMenuSceneName = "MainMenu";
+        public const string MainMenuSceneName = "MainMenu";
         
-        public static string LandingSceneName = "Landing";
+        public const string LandingSceneName = "Landing";
         
-        public static string DefaultPreloaderSceneName = "DefaultPreloader";
+        public const string DefaultPreloaderSceneName = "DefaultPreloader";
 
-        public static string TestLevelSceneName = "Level01";
+        public const string TestLevelSceneName = "Level01";
     }
 }

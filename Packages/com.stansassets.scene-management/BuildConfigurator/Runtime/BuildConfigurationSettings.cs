@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using StansAssets.Plugins;
+using SolarSystem.PackageSettings;
 
-namespace StansAssets.SceneManagement.Build
+namespace SolarSystem.BuildConfigurator.Runtime
 {
     /// <summary>
     /// Build settings

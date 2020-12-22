@@ -1,7 +1,9 @@
 using System;
+using SolarSystem.Enums;
+using SolarSystem.Interfces;
+using SolarSystem.Models;
 using SolarSystem.Modules.Core.Config;
 using SolarSystem.Modules.Core.Enums;
-using StansAssets.SceneManagement;
 using UnityEngine;
 
 namespace SolarSystem.Modules.Core.States

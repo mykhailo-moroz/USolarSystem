@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Rotorz.ReorderableList
+namespace SolarSystem.Editor.ThirdParty.Rotorz.Reorderable_List_Field.Editor
 {
     /// <summary>
     /// Reorderable list adaptor for generic list.

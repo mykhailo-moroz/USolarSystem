@@ -1,9 +1,16 @@
-﻿using UnityEngine;
+﻿using SolarSystem.BuildConfigurator.Editor.Extensions;
+using SolarSystem.BuildConfigurator.Runtime;
+using SolarSystem.Editor.IMGUI.Controls;
+using SolarSystem.Editor.IMGUI.Disposables;
+using SolarSystem.Editor.IMGUI.Headers;
+using SolarSystem.Editor.IMGUI.Layout;
+using SolarSystem.Editor.IMGUI.SettingsWindow;
+using SolarSystem.Editor.IMGUI.Styles;
+using SolarSystem.Editor.ThirdParty.Rotorz.Reorderable_List_Field.Editor;
 using UnityEditor;
-using Rotorz.ReorderableList;
-using StansAssets.Plugins.Editor;
+using UnityEngine;
 
-namespace StansAssets.SceneManagement.Build
+namespace SolarSystem.BuildConfigurator.Editor
 {
     class BuildConfigurationWindow : IMGUISettingsWindow<BuildConfigurationWindow>
     {

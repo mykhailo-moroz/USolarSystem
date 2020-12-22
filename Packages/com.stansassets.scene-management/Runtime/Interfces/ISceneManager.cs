@@ -1,4 +1,4 @@
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Interfces
 {
     public interface ISceneManager
     {

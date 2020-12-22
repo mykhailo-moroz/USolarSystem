@@ -1,4 +1,4 @@
-using StansAssets.SceneManagement;
+using SolarSystem.Interfces;
 
 namespace SolarSystem.Modules.Core.Interfaces
 {

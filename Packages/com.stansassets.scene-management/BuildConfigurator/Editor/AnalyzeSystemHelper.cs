@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using UnityEditor.AddressableAssets.Build.AnalyzeRules;
 
-namespace StansAssets.SceneManagement.Build
+namespace SolarSystem.BuildConfigurator.Editor
 {
     public static class AnalyzeSystemHelper
     {

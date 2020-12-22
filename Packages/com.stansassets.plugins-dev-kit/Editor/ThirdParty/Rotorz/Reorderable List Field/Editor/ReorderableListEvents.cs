@@ -5,7 +5,7 @@ using System;
 using System.ComponentModel;
 using UnityEngine;
 
-namespace Rotorz.ReorderableList
+namespace SolarSystem.Editor.ThirdParty.Rotorz.Reorderable_List_Field.Editor
 {
     /// <summary>
     /// Arguments which are passed to <see cref="AddMenuClickedEventHandler"/>.

@@ -1,9 +1,10 @@
 using System;
+using SolarSystem.Editor.IMGUI.Disposables;
 using StansAssets.Foundation.Extensions;
-using UnityEngine;
 using UnityEditor;
+using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.IMGUI.Controls
 {
     [Serializable]
     public class IMGUIHyperLabel : IMGUIHyperButton

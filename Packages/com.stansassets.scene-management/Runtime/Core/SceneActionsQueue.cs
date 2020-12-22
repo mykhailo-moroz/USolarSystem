@@ -1,11 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using SolarSystem.Enums;
+using SolarSystem.Interfces;
+using SolarSystem.Models;
+using SolarSystem.Statis;
 using StansAssets.Foundation.Async;
-using StansAssets.Foundation.Patterns;
 using UnityEngine;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Core
 {
     public class SceneActionsQueue
     {

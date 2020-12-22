@@ -1,9 +1,10 @@
 using System;
-using System.Collections.Generic;
-using UnityEngine;
+using SolarSystem.Editor.IMGUI.Disposables;
+using SolarSystem.Editor.IMGUI.Styles;
 using UnityEditor;
+using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.IMGUI.Headers
 {
     [Serializable]
     public class IMGUIBlockWithIndent : IDisposable

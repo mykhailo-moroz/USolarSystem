@@ -1,7 +1,8 @@
 using System;
+using SolarSystem.Core;
+using SolarSystem.Interfces;
 using SolarSystem.Modules.Core.Config;
 using SolarSystem.Modules.Core.Interfaces;
-using StansAssets.SceneManagement;
 using UnityEngine.Assertions;
 
 namespace SolarSystem.Modules.Core.Infrastructure

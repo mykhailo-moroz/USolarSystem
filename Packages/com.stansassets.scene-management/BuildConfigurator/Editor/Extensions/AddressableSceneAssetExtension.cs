@@ -1,6 +1,7 @@
-﻿using UnityEditor;
+﻿using SolarSystem.BuildConfigurator.Runtime;
+using UnityEditor;
 
-namespace StansAssets.SceneManagement.Build
+namespace SolarSystem.BuildConfigurator.Editor.Extensions
 {
     static class AddressableSceneAssetExtension
     {

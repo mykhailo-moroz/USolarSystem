@@ -4,7 +4,20 @@
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_SolarSystem.-643991250.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="EditorLaunchConfigurator.cs" t="Include" />
+          <e p="GameConfigurationMenu.cs" t="Include" />
+          <e p="Helper" t="Include">
+            <e p="MouseUtility.cs" t="Include" />
+            <e p="PathHandle.cs" t="Include" />
+            <e p="ScreenSpacePolyLine.cs" t="Include" />
+          </e>
+          <e p="LevelConfigEditorWindow.cs" t="Include" />
+          <e p="PathEditor.cs" t="Include" />
+        </e>
         <e p="Modules" t="Include">
           <e p="Core" t="Include">
             <e p="Abstract" t="Include">
@@ -48,10 +61,90 @@
           </e>
           <e p="GamePlay" t="Include">
             <e p="Scripts" t="Include">
+              <e p="Configs" t="Include">
+                <e p="GameLayers.cs" t="Include" />
+                <e p="GameScenesConfig.cs" t="Include" />
+                <e p="GameSettings.cs" t="Include" />
+                <e p="GameTags.cs" t="Include" />
+              </e>
               <e p="GamePlayModule.cs" t="Include" />
+              <e p="Interfaces" t="Include">
+                <e p="ICameraService.cs" t="Include" />
+                <e p="IGameService.cs" t="Include" />
+                <e p="IInputService.cs" t="Include" />
+                <e p="IPathFollower.cs" t="Include" />
+              </e>
               <e p="Managers" t="Include">
-                <e p="ILevelController.cs" t="Include" />
-                <e p="LevelController.cs" t="Include" />
+                <e p="Game.cs" t="Include" />
+                <e p="GameEditMode.cs" t="Include" />
+                <e p="IGameController.cs" t="Include" />
+              </e>
+              <e p="PathCreator" t="Include">
+                <e p="PathFollower.cs" t="Include" />
+                <e p="PathFollowerEditor.cs" t="Include" />
+                <e p="Runtime" t="Include">
+                  <e p="Objects" t="Include">
+                    <e p="BezierPath.cs" t="Include" />
+                    <e p="EndOfPathInstruction.cs" t="Include" />
+                    <e p="GlobalDisplaySettings.cs" t="Include" />
+                    <e p="MinMax3D.cs" t="Include" />
+                    <e p="PathCreator.cs" t="Include" />
+                    <e p="PathCreatorData.cs" t="Include" />
+                    <e p="PathSpace.cs" t="Include" />
+                    <e p="VertexPath.cs" t="Include" />
+                  </e>
+                  <e p="Utility" t="Include">
+                    <e p="CubicBezierUtility.cs" t="Include" />
+                    <e p="MathUtility.cs" t="Include" />
+                    <e p="VertexPathUtility.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Services" t="Include">
+                <e p="CameraService.cs" t="Include" />
+                <e p="GameService.cs" t="Include" />
+              </e>
+              <e p="Static" t="Include">
+                <e p="GameHelper.cs" t="Include" />
+                <e p="GameSettingsExtension.cs" t="Include" />
+              </e>
+              <e p="Systems" t="Include">
+                <e p="ControllerSystem" t="Include">
+                  <e p="ControllerBase.cs" t="Include" />
+                </e>
+                <e p="GameEntitySystem" t="Include">
+                  <e p="GameEntityBase.cs" t="Include" />
+                  <e p="GameEntityState.cs" t="Include" />
+                  <e p="IGameEntity.cs" t="Include" />
+                  <e p="IGameEntityState.cs" t="Include" />
+                </e>
+                <e p="InputSystem" t="Include">
+                  <e p="InputEventArgs.cs" t="Include" />
+                  <e p="InputService.cs" t="Include" />
+                </e>
+                <e p="PlayerSystem" t="Include">
+                  <e p="CameraFollow.cs" t="Include" />
+                  <e p="EditorModes" t="Include">
+                    <e p="PlayerEditMode.cs" t="Include" />
+                    <e p="PlayerStarteditMode.cs" t="Include" />
+                  </e>
+                  <e p="Player.cs" t="Include" />
+                  <e p="PlayerController.cs" t="Include" />
+                  <e p="PlayerStart.cs" t="Include" />
+                </e>
+                <e p="TrafficSystem" t="Include">
+                  <e p="TrafficCar.cs" t="Include" />
+                  <e p="TrafficCarEditor.cs" t="Include" />
+                  <e p="TrafficController.cs" t="Include" />
+                  <e p="TrafficMovingCarDirection.cs" t="Include" />
+                  <e p="TrafficSpawner.cs" t="Include" />
+                </e>
+                <e p="VehicleSystem" t="Include">
+                  <e p="Vehicle.cs" t="Include" />
+                  <e p="VehicleCollisionEventArgs.cs" t="Include" />
+                  <e p="VehicleEditMode.cs" t="Include" />
+                  <e p="VehicleState.cs" t="Include" />
+                </e>
               </e>
             </e>
             <e p="SolarSystem.GamePlay.asmdef" t="Include" />
@@ -71,9 +164,188 @@
             <e p="SolarSystem.UI.asmdef" t="Include" />
           </e>
         </e>
+        <e p="ThirdParty" t="Include">
+          <e p="Joystick Pack" t="Include">
+            <e p="Examples" t="Include">
+              <e p="JoystickPlayerExample.cs" t="Include" />
+              <e p="JoystickSetterExample.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Base" t="Include">
+                <e p="Joystick.cs" t="Include" />
+              </e>
+              <e p="Editor" t="Include">
+                <e p="DynamicJoystickEditor.cs" t="Include" />
+                <e p="FloatingJoystickEditor.cs" t="Include" />
+                <e p="JoystickEditor.cs" t="Include" />
+                <e p="VariableJoystickEditor.cs" t="Include" />
+              </e>
+              <e p="Joysticks" t="Include">
+                <e p="DynamicJoystick.cs" t="Include" />
+                <e p="FixedJoystick.cs" t="Include" />
+                <e p="FloatingJoystick.cs" t="Include" />
+                <e p="VariableJoystick.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="PolygonSciFiCity" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="Polygon_Triplanar.shader" t="Include" />
+              <e p="Polygon_UVScroll.shader" t="Include" />
+            </e>
+          </e>
+          <e p="RetroAesthetics" t="Include">
+            <e p="Fonts" t="Include">
+              <e p="Bitmap" t="Include">
+                <e p="misterpixel_white" t="Include">
+                  <e p="MisterPixel_white.fnt" t="Include" />
+                </e>
+                <e p="monotron1" t="Include">
+                  <e p="Monotron1.fnt" t="Include" />
+                </e>
+                <e p="monotron_white" t="Include">
+                  <e p="Monotron_white.fnt" t="Include" />
+                </e>
+                <e p="monsterrat1" t="Include">
+                  <e p="Monsterrat1.fnt" t="Include" />
+                </e>
+                <e p="monsterrat2" t="Include">
+                  <e p="Monsterrat2.fnt" t="Include" />
+                </e>
+                <e p="monsterrat3" t="Include">
+                  <e p="Monsterrat3.fnt" t="Include" />
+                </e>
+                <e p="Monsterrat4" t="Include">
+                  <e p="Monsterrat4.fnt" t="Include" />
+                </e>
+                <e p="Monsterrat_white" t="Include">
+                  <e p="Monsterrat_white.fnt" t="Include" />
+                </e>
+                <e p="MrDafoe1" t="Include">
+                  <e p="MrDafoe1.fnt" t="Include" />
+                </e>
+                <e p="MrDafoe2" t="Include">
+                  <e p="MrDafoe2.fnt" t="Include" />
+                </e>
+                <e p="MrDafoe_white" t="Include">
+                  <e p="MrDafoe_white.fnt" t="Include" />
+                </e>
+                <e p="raleway1" t="Include">
+                  <e p="Raleway1.fnt" t="Include" />
+                </e>
+                <e p="raleway_white" t="Include">
+                  <e p="Raleway_white.fnt" t="Include" />
+                </e>
+                <e p="sixcaps1" t="Include">
+                  <e p="SixCaps1.fnt" t="Include" />
+                </e>
+                <e p="sixcaps2" t="Include">
+                  <e p="SixCaps2.fnt" t="Include" />
+                </e>
+                <e p="sixcaps_white" t="Include">
+                  <e p="SixCaps_white.fnt" t="Include" />
+                </e>
+                <e p="VcrOsdMono_white" t="Include">
+                  <e p="VcrOsdMono_white.fnt" t="Include" />
+                </e>
+                <e p="yellowtail1" t="Include">
+                  <e p="Yellowtail1.fnt" t="Include" />
+                </e>
+                <e p="yellowtail_white" t="Include">
+                  <e p="Yellowtail_white.fnt" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="CombineMeshes.cs" t="Include" />
+              <e p="InspectorButton.cs" t="Include" />
+              <e p="SceneField.cs" t="Include" />
+              <e p="UVScroller.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="Editor" t="Include">
+                <e p="RetroSkyboxEditor.cs" t="Include" />
+              </e>
+              <e p="Post-processing" t="Include">
+                <e p="RetroCameraEffect.cs" t="Include" />
+                <e p="RetroCameraEffect.shader" t="Include" />
+              </e>
+              <e p="RetroEmissiveColors.shader" t="Include" />
+              <e p="RetroEmissiveTextured.shader" t="Include" />
+              <e p="RetroGridGenerative.shader" t="Include" />
+              <e p="RetroSkybox.shader" t="Include" />
+              <e p="SpriteGradientSprites.shader" t="Include" />
+              <e p="UnlitTextureColor.shader" t="Include" />
+            </e>
+          </e>
+          <e p="TextMesh Pro" t="Include">
+            <e p="Fonts" t="Include">
+              <e p="LiberationSans - OFL.txt" t="Include" />
+            </e>
+            <e p="Resources" t="Include">
+              <e p="LineBreaking Following Characters.txt" t="Include" />
+              <e p="LineBreaking Leading Characters.txt" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF SSD.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Mobile.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+            <e p="Sprites" t="Include">
+              <e p="EmojiOne Attribution.txt" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
+      <e p="MikeAssets.ServiceLocator.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive">
+        <e p="com.mikeassets.service-locator" t="Include">
+          <e p="Runtime" t="Include">
+            <e p="Bindings" t="Include">
+              <e p="Binding.cs" t="Include" />
+              <e p="BindingConfiguration.cs" t="Include" />
+              <e p="BindingRoot.cs" t="Include" />
+              <e p="Builder" t="Include">
+                <e p="BindingBuilder.cs" t="Include" />
+              </e>
+              <e p="IBinding.cs" t="Include" />
+              <e p="IBindingConfiguration.cs" t="Include" />
+              <e p="IBindingRoot.cs" t="Include" />
+              <e p="Syntax" t="Include">
+                <e p="IBindingToSyntax.cs" t="Include" />
+                <e p="IBindingWhenInNamedWithOrOnSyntax.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Configuration" t="Include">
+              <e p="IServiceLocatorConfiguration.cs" t="Include" />
+              <e p="ServiceLocatorConfiguration.cs" t="Include" />
+            </e>
+            <e p="Locator" t="Include">
+              <e p="IServiceLocatorKernel.cs" t="Include" />
+              <e p="ServiceLocator.cs" t="Include" />
+            </e>
+            <e p="MikeAssets.ServiceLocator.asmdef" t="Include" />
+            <e p="Modules" t="Include">
+              <e p="ILocatorModule.cs" t="Include" />
+              <e p="LocatorModule.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="com.stansassets.plugins-dev-kit" t="Include">
           <e p="Editor" t="Include">
             <e p="Config" t="Include">

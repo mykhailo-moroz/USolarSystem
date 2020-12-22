@@ -9,5 +9,7 @@ namespace SolarSystem.Modules.Core.Interfaces
         void RegisterModule(ApplicationModule module);
 
         void UnregisterModule(string name);
+
+        bool IsModuleRegistered(string name);
     }
 }

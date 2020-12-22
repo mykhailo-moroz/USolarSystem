@@ -2,7 +2,7 @@ using StansAssets.Foundation;
 using UnityEditor;
 using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.IMGUI.Styles
 {
     public static class SettingsWindowStyles
     {

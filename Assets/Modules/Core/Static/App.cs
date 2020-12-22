@@ -4,7 +4,8 @@ using SolarSystem.Modules.Core.Enums;
 using SolarSystem.Modules.Core.Infrastructure;
 using SolarSystem.Modules.Core.Interfaces;
 using SolarSystem.Modules.Core.States;
-using StansAssets.SceneManagement;
+using SolarSystem.Utilities.ApplicationStateStack;
+using UnityEngine;
 
 namespace SolarSystem.Modules.Core.Static
 {
@@ -19,7 +20,8 @@ namespace SolarSystem.Modules.Core.Static
         public static void Init(Action onComplete)
         {
             RegisterModule(new CoreModule());
-
+            
+            Debug.Log("Application start!");
             var preloadService = s_serviceLocator.Get<IPreloadService>();
             preloadService?.PreparePreloader(() =>
             {
@@ -31,12 +33,18 @@ namespace SolarSystem.Modules.Core.Static
 
         public static void RegisterModule(ApplicationModule module)
         {
-            s_serviceLocator.RegisterModule(module);
+            if (!s_serviceLocator.IsModuleRegistered(module.Name))
+            {
+                s_serviceLocator.RegisterModule(module);   
+            }
         }
 
         public static void UnregisterModule(string name)
         {
-            s_serviceLocator.UnregisterModule(name);
+            if (s_serviceLocator.IsModuleRegistered(name))
+            {
+                s_serviceLocator.UnregisterModule(name);    
+            }
         }
 
         private static void InitApplicationStates()

@@ -1,10 +1,9 @@
 ﻿#if UNITY_2019_4_OR_NEWER
 
 using StansAssets.Foundation.Editor;
-using UnityEditor;
 using UnityEngine.UIElements;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.UIToolkit.SettingsWindow
 {
     /// <summary>
     /// Base window tab implementation for <see cref="PackageSettingsWindow" />

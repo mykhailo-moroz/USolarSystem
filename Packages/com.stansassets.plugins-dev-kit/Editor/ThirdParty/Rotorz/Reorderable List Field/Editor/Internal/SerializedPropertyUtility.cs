@@ -5,7 +5,7 @@ using System;
 using UnityEditor;
 using UnityEngine;
 
-namespace Rotorz.ReorderableList.Internal
+namespace SolarSystem.Editor.ThirdParty.Rotorz.Reorderable_List_Field.Editor.Internal
 {
     /// <summary>
     /// Utility functionality for <see cref="SerializedPropertyAdaptor"/> implementations.

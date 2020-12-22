@@ -1,7 +1,9 @@
+using SolarSystem.Editor.Config;
+using SolarSystem.Editor.Utilities;
 using UnityEditor;
 using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.IMGUI.Styles
 {
     public static class PluginsEditorSkin
     {

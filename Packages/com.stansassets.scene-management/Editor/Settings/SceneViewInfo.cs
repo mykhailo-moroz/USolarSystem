@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Editor.Settings
 {
     [Serializable]
     class SceneViewInfo

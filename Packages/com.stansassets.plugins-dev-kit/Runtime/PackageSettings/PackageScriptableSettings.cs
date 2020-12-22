@@ -1,6 +1,7 @@
+using SolarSystem.Config;
 using UnityEngine;
 
-namespace StansAssets.Plugins
+namespace SolarSystem.PackageSettings
 {
     /// <summary>
     /// Base class for the plugin settings.

@@ -1,7 +1,12 @@
+using SolarSystem.Editor.IMGUI.Controls;
+using SolarSystem.Editor.IMGUI.Disposables;
+using SolarSystem.Editor.IMGUI.Headers;
+using SolarSystem.Editor.IMGUI.Styles;
+using SolarSystem.PackageSettings;
 using UnityEditor;
 using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.Inspectors
 {
     [CustomEditor(typeof(PackageScriptableSettings), true)]
     public sealed class PackageSettingsInspector : UnityEditor.Editor

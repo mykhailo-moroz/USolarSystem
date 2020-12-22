@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StansAssets.SceneManagement.Build
+namespace SolarSystem.BuildConfigurator.Runtime
 {
     /// <summary>
     /// Class that indicates is scene addressable

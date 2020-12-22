@@ -1,6 +1,7 @@
 ﻿#if UNITY_2019_4_OR_NEWER
 using System;
 using System.Collections.Generic;
+using SolarSystem.Editor.Config;
 using StansAssets.Foundation.Editor;
 using StansAssets.Foundation.UIElements;
 using UnityEditor;
@@ -8,7 +9,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.UIToolkit.SettingsWindow
 {
     /// <summary>
     ///     Base class for Plugin Settings Window

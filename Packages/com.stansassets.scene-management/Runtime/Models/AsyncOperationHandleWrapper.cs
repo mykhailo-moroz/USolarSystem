@@ -1,7 +1,8 @@
 using System;
+using SolarSystem.Interfces;
 using UnityEngine.ResourceManagement.AsyncOperations;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Models
 {
     class AsyncOperationHandleWrapper<T> : IAsyncOperation
     {

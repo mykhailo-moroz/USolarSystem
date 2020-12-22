@@ -1,6 +1,6 @@
 using System;
 using System.Collections;
-using StansAssets.SceneManagement;
+using SolarSystem.Interfces;
 using UnityEngine;
 using UnityEngine.UI;
 

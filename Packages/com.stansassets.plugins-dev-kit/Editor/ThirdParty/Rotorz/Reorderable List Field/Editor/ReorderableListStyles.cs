@@ -1,11 +1,11 @@
 // Copyright (c) Rotorz Limited. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root.
 
-using Rotorz.ReorderableList.Internal;
+using SolarSystem.Editor.ThirdParty.Rotorz.Reorderable_List_Field.Editor.Internal;
 using UnityEditor;
 using UnityEngine;
 
-namespace Rotorz.ReorderableList
+namespace SolarSystem.Editor.ThirdParty.Rotorz.Reorderable_List_Field.Editor
 {
     /// <summary>
     /// Styles for the <see cref="ReorderableListControl"/>.

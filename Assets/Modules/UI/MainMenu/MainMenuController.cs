@@ -1,13 +1,13 @@
 ﻿using System;
+using SolarSystem.Interfces;
 using SolarSystem.Modules.Core.Enums;
 using SolarSystem.Modules.Core.Static;
-using StansAssets.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace SolarSystem.Modules.UI.MainMenu
 {
-    public class MainMenuController : MonoBehaviour, IMainMenuController, ISceneManager, ISceneDelegate
+    internal class MainMenuController : MonoBehaviour, IMainMenuController, ISceneManager, ISceneDelegate
     {
         [SerializeField]
         private Button m_playButton;
@@ -17,6 +17,7 @@ namespace SolarSystem.Modules.UI.MainMenu
         
         public void OnSceneLoaded()
         {
+            Debug.Log("Main menu loaded!");
             m_playButton.onClick.AddListener(() =>
             {
                 App.State.Set(GameState.Game);

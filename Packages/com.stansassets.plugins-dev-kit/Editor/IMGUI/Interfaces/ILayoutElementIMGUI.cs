@@ -1,4 +1,4 @@
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.IMGUI.Interfaces
 {
     public interface ILayoutElementIMGUI
     {

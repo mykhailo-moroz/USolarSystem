@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using SolarSystem.Interfces;
+using SolarSystem.Models;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Utilities.ApplicationStateStack
 {
     public interface IApplicationStateStack<T> where T : Enum
     {

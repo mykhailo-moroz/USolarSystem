@@ -1,7 +1,7 @@
 using System;
 using UnityEditor;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.IMGUI.Disposables
 {
     public class IMGUIIndentLevel : IDisposable
     {

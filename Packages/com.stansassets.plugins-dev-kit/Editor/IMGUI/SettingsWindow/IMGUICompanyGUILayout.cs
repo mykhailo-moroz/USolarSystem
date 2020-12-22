@@ -1,7 +1,10 @@
+using SolarSystem.Editor.Config;
+using SolarSystem.Editor.IMGUI.Layout;
+using SolarSystem.Editor.IMGUI.Styles;
 using UnityEditor;
 using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.IMGUI.SettingsWindow
 {
     public class IMGUICompanyGUILayout
     {

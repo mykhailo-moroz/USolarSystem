@@ -4,7 +4,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Rotorz.ReorderableList
+namespace SolarSystem.Editor.ThirdParty.Rotorz.Reorderable_List_Field.Editor.Element_Adder_Menu
 {
     sealed class GenericElementAdderMenu : IElementAdderMenu
     {

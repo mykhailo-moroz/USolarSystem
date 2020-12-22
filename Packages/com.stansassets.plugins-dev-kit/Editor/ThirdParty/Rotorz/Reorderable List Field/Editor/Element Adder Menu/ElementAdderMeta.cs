@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Rotorz.ReorderableList
+namespace SolarSystem.Editor.ThirdParty.Rotorz.Reorderable_List_Field.Editor.Element_Adder_Menu
 {
     /// <summary>
     /// Provides meta information which is useful when creating new implementations of

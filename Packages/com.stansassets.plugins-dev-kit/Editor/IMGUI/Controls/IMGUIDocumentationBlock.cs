@@ -1,10 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using SolarSystem.Editor.IMGUI.Disposables;
+using SolarSystem.Editor.IMGUI.Headers;
 using UnityEditor;
 using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.IMGUI.Controls
 {
     [Serializable]
     public class IMGUIDocumentationBlock

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StansAssets.SceneManagement.Build
+namespace SolarSystem.BuildConfigurator.Runtime
 {
     public enum BuildTargetRuntime
     {

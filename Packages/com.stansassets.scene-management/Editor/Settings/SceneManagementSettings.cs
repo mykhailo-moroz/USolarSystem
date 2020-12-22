@@ -1,8 +1,9 @@
 using System.Collections.Generic;
-using StansAssets.Plugins;
+using SolarSystem.Editor.Configs;
+using SolarSystem.PackageSettings;
 using UnityEditor;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Editor.Settings
 {
     public class SceneManagementSettings : PackageScriptableSettingsSingleton<SceneManagementSettings>
     {

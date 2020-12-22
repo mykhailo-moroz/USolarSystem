@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.Utilities
 {
     public class EditorAssetDatabase : MonoBehaviour
     {

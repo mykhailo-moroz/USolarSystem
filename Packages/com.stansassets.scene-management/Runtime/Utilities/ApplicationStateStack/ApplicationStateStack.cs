@@ -1,11 +1,14 @@
-﻿using JetBrains.Annotations;
-using StansAssets.Foundation.Patterns;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using JetBrains.Annotations;
+using SolarSystem.Enums;
+using SolarSystem.Interfces;
+using SolarSystem.Models;
+using StansAssets.Foundation.Patterns;
 using UnityEngine.Assertions;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Utilities.ApplicationStateStack
 {
     public class ApplicationStateStack<T> : IApplicationStateStack<T> where T : Enum
     {

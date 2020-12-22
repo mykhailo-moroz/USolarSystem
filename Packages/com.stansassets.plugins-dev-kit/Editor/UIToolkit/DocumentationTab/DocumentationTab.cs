@@ -2,12 +2,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using SolarSystem.Editor.Config;
+using SolarSystem.Editor.UIToolkit.SettingsWindow;
 using StansAssets.Foundation.UIElements;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.UIToolkit.DocumentationTab
 {
     [Serializable]
     public class DocumentationTab : BaseTab

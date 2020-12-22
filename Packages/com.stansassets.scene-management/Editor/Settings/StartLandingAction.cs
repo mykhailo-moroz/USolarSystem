@@ -1,11 +1,11 @@
 #if UNITY_2019_4_OR_NEWER
 using System.Collections.Generic;
 using UnityEditor;
-using UnityEngine;
 using UnityEditor.SceneManagement;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Editor.Settings
 {
     [InitializeOnLoad]
     static class StartLandingAction

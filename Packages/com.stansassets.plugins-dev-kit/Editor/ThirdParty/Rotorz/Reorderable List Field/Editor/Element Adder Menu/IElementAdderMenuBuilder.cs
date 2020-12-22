@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Rotorz.ReorderableList
+namespace SolarSystem.Editor.ThirdParty.Rotorz.Reorderable_List_Field.Editor.Element_Adder_Menu
 {
     /// <summary>
     /// Interface for building an <see cref="IElementAdderMenu"/>.

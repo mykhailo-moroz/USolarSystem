@@ -1,10 +1,13 @@
 using System;
 using System.Collections.Generic;
+using SolarSystem.Editor.IMGUI.Controls;
+using SolarSystem.Editor.IMGUI.Disposables;
+using SolarSystem.Editor.IMGUI.Styles;
 using StansAssets.Foundation.Editor;
-using UnityEngine;
 using UnityEditor;
+using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.IMGUI.SettingsWindow
 {
     public abstract class IMGUISettingsWindow<TWindow> : EditorWindow where TWindow : EditorWindow
     {

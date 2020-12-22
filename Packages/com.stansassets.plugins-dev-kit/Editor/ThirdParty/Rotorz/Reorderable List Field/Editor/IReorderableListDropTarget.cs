@@ -1,7 +1,7 @@
 // Copyright (c) Rotorz Limited. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root.
 
-namespace Rotorz.ReorderableList
+namespace SolarSystem.Editor.ThirdParty.Rotorz.Reorderable_List_Field.Editor
 {
     /// <summary>
     /// Can be implemented along with <see cref="IReorderableListAdaptor"/> when drop

@@ -3,7 +3,7 @@
 
 using UnityEngine;
 
-namespace Rotorz.ReorderableList
+namespace SolarSystem.Editor.ThirdParty.Rotorz.Reorderable_List_Field.Editor
 {
     /// <summary>
     /// Adaptor allowing reorderable list control to interface with list data.

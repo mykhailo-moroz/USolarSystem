@@ -1,7 +1,7 @@
 using StansAssets.Foundation.Editor;
 using UnityEditor.PackageManager;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.Config
 {
     /// <summary>
     /// Common config values for packages. Editor use only.

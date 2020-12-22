@@ -1,8 +1,8 @@
 using System;
-using UnityEngine;
 using UnityEditor;
+using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.IMGUI.Controls
 {
     [Serializable]
     public abstract class IMGUIHyperButton

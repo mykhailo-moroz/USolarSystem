@@ -1,6 +1,7 @@
+using SolarSystem.Editor.Configs;
 using UnityEditor;
 
-namespace StansAssets.SceneManagement.Build
+namespace SolarSystem.BuildConfigurator.Editor
 {
     public static class BuildConfigurationMenu
     {

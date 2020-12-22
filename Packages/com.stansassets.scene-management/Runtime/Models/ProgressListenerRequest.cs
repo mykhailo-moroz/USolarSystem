@@ -1,7 +1,8 @@
 ﻿using System;
+using SolarSystem.Interfces;
 using UnityEngine;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Models
 {
     class ProgressListenerRequest : IProgressReporter
     {

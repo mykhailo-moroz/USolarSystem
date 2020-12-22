@@ -6,10 +6,12 @@ using UnityEngine;
 
 namespace SolarSystem.Modules.Landing
 {
-    public class LandingController : MonoBehaviour
+    internal class LandingController : MonoBehaviour
     {
         private void Start()
         {
+            Debug.Log("Landing started!");
+            
             App.Init(() =>
             {
                 App.State.Set(GameState.Menu);

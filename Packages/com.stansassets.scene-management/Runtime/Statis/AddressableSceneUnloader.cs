@@ -1,12 +1,11 @@
 ﻿using System;
-using JetBrains.Annotations;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Assertions;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.ResourceManagement.ResourceProviders;
 using UnityEngine.SceneManagement;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Statis
 {
     public class AddressableSceneUnloaderResult
     {

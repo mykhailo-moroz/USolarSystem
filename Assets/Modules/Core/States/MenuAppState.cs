@@ -1,7 +1,9 @@
 using System;
+using SolarSystem.Enums;
+using SolarSystem.Interfces;
+using SolarSystem.Models;
 using SolarSystem.Modules.Core.Config;
 using SolarSystem.Modules.Core.Enums;
-using StansAssets.SceneManagement;
 
 namespace SolarSystem.Modules.Core.States
 {
@@ -15,7 +17,7 @@ namespace SolarSystem.Modules.Core.States
                     AddSceneAction(SceneActionType.Load, AppConfig.MainMenuSceneName);
                     break;
                 case StackAction.Removed:
-                    AddSceneAction(SceneActionType.Deactivate, AppConfig.MainMenuSceneName);
+                    AddSceneAction(SceneActionType.Unload, AppConfig.MainMenuSceneName);
                     break;
                 case StackAction.Paused:
                     break;

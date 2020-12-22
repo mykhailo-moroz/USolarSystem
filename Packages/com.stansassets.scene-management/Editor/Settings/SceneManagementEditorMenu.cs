@@ -1,8 +1,9 @@
 #if UNITY_2019_4_OR_NEWER
-using StansAssets.Plugins.Editor;
+using SolarSystem.Editor.Configs;
+using SolarSystem.Editor.Window;
 using UnityEditor;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Editor.Settings
 {
     static class SceneManagementEditorMenu
     {

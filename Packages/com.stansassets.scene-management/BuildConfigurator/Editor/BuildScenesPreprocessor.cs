@@ -1,13 +1,15 @@
-﻿using UnityEngine;
-using UnityEditor;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using SolarSystem.BuildConfigurator.Editor.Extensions;
+using SolarSystem.BuildConfigurator.Runtime;
+using UnityEditor;
 using UnityEditor.AddressableAssets;
 using UnityEditor.AddressableAssets.Build;
 using UnityEditor.AddressableAssets.Settings;
 using UnityEditor.AddressableAssets.Settings.GroupSchemas;
+using UnityEngine;
 
-namespace StansAssets.SceneManagement.Build
+namespace SolarSystem.BuildConfigurator.Editor
 {
     [InitializeOnLoad]
     public class BuildScenesPreprocessor

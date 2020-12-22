@@ -1,6 +1,7 @@
+using SolarSystem.Editor.IMGUI.Interfaces;
 using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.IMGUI.SettingsWindow
 {
     public abstract class IMGUILayoutElement : ScriptableObject, ILayoutElementIMGUI
     {

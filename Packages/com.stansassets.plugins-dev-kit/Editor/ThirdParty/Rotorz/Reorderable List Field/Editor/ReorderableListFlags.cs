@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Rotorz.ReorderableList
+namespace SolarSystem.Editor.ThirdParty.Rotorz.Reorderable_List_Field.Editor
 {
     /// <summary>
     /// Additional flags which can be passed into reorderable list field.

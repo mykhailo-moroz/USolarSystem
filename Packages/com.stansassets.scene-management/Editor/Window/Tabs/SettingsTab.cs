@@ -1,11 +1,12 @@
 ﻿#if UNITY_2019_4_OR_NEWER
-using StansAssets.Plugins.Editor;
+using SolarSystem.Editor.Configs;
+using SolarSystem.Editor.Settings;
+using SolarSystem.Editor.UIToolkit.SettingsWindow;
 using UnityEditor;
 using UnityEditor.UIElements;
-using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Editor.Window.Tabs
 {
     public class SettingsTab : BaseTab
     {

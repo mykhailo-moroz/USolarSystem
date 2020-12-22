@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using SolarSystem.BuildConfigurator.Runtime;
 using UnityEditor;
 using UnityEngine;
 
-namespace StansAssets.SceneManagement.Build
+namespace SolarSystem.BuildConfigurator.Editor.Extensions
 {
     static class BuildConfigurationExtension
     {

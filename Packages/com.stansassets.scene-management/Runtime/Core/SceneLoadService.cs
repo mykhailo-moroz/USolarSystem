@@ -1,8 +1,10 @@
 using System;
+using SolarSystem.Interfces;
+using SolarSystem.Statis;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Core
 {
     public class SceneLoadService : ISceneLoadService
     {

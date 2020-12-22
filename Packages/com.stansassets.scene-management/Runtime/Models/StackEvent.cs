@@ -1,7 +1,6 @@
 using System;
-using System.Collections.Generic;
 
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Models
 {
     public abstract class StackEvent<TEnum> where TEnum : Enum
     {

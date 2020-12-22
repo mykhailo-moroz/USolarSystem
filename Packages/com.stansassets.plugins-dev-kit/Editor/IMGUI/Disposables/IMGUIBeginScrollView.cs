@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.IMGUI.Disposables
 {
     public class IMGUIBeginScrollView : IDisposable
     {

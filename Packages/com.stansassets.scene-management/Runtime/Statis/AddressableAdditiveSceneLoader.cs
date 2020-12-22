@@ -1,4 +1,4 @@
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Statis
 {
     class AddressableAdditiveSceneLoader
     {

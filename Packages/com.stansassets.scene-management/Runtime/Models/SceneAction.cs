@@ -1,4 +1,6 @@
-namespace StansAssets.SceneManagement
+using SolarSystem.Enums;
+
+namespace SolarSystem.Models
 {
     public struct SceneAction
     {

@@ -1,12 +1,13 @@
 using System;
 using System.IO;
+using SolarSystem.Config;
+using UnityEditor;
 using UnityEngine;
 #if UNITY_EDITOR
-using UnityEditor;
 
 #endif
 
-namespace StansAssets.Plugins
+namespace SolarSystem.PackageSettings
 {
     /// <summary>
     ///     Package Scriptable Settings singleton pattern implementation.

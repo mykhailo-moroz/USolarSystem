@@ -1,5 +1,6 @@
+using SolarSystem.Interfces;
+using SolarSystem.Models;
 using SolarSystem.Modules.Core.Enums;
-using StansAssets.SceneManagement;
 
 namespace SolarSystem.Modules.Core.States
 {

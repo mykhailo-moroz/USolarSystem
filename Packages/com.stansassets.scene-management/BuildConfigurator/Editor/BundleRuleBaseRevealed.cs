@@ -17,7 +17,7 @@ using UnityEngine;
 using UnityEngine.AddressableAssets.Initialization;
 using UnityEngine.AddressableAssets.ResourceLocators;
 
-namespace StansAssets.SceneManagement.Build
+namespace SolarSystem.BuildConfigurator.Editor
 {
     class BundleRuleBaseRevealed : AnalyzeRule
     {

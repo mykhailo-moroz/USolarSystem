@@ -1,7 +1,12 @@
+using SolarSystem.Editor.Config;
+using SolarSystem.Editor.IMGUI.Controls;
+using SolarSystem.Editor.IMGUI.Disposables;
+using SolarSystem.Editor.IMGUI.Styles;
+using SolarSystem.Editor.Utilities;
 using UnityEditor;
 using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.IMGUI.SettingsWindow
 {
     public class IMGUIAboutTab : IMGUILayoutElement
     {

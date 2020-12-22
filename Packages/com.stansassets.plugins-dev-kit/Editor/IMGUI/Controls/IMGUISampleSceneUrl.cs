@@ -1,8 +1,9 @@
 using System;
+using SolarSystem.Editor.IMGUI.Styles;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.IMGUI.Controls
 {
     [Serializable]
     public class IMGUISampleSceneUrl : IMGUIHyperLabel

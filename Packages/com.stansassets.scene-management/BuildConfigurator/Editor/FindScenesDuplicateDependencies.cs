@@ -10,7 +10,7 @@ using UnityEditor.AddressableAssets.Settings.GroupSchemas;
 using UnityEditor.Build.Pipeline;
 using UnityEngine;
 
-namespace StansAssets.SceneManagement.Build
+namespace SolarSystem.BuildConfigurator.Editor
 {
     sealed class FindScenesDuplicateDependencies : BundleRuleBaseRevealed
     {

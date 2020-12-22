@@ -2,7 +2,7 @@ using System;
 using UnityEditor;
 using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.Utilities
 {
     /// <summary>
     /// Utils collection for the Unity EditorWindow.

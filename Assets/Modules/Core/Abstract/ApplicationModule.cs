@@ -1,5 +1,4 @@
 using Ninject.Modules;
-using SolarSystem.Modules.Core.Interfaces;
 
 namespace SolarSystem.Modules.Core.Abstract
 {

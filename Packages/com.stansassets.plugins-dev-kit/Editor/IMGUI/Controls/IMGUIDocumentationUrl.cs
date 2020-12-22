@@ -1,7 +1,8 @@
 using System;
+using SolarSystem.Editor.IMGUI.Styles;
 using UnityEngine;
 
-namespace StansAssets.Plugins.Editor
+namespace SolarSystem.Editor.IMGUI.Controls
 {
     [Serializable]
     public class IMGUIDocumentationUrl : IMGUIHyperLabel

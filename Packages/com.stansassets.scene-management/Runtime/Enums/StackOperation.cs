@@ -1,4 +1,4 @@
-namespace StansAssets.SceneManagement
+namespace SolarSystem.Enums
 {
     public enum StackOperation
     {
