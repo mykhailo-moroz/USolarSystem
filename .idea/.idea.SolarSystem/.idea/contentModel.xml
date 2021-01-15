@@ -20,7 +20,6 @@
             <e p="Infrastructure" t="Include">
               <e p="DefaultSceneLoadService.cs" t="Include" />
               <e p="PreloadManager.cs" t="Include" />
-              <e p="ServiceLocator.cs" t="Include" />
             </e>
             <e p="Interfaces" t="Include">
               <e p="IPreloadService.cs" t="Include" />
@@ -72,8 +71,37 @@
           </e>
         </e>
       </e>
+      <e p="MikeAssets.ModularServiceLocator.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive">
+        <e p="com.mikeassets.modular-service-locator" t="Include">
+          <e p="Runtime" t="Include">
+            <e p="Bindings" t="Include">
+              <e p="Binding.cs" t="Include" />
+              <e p="BindingRoot.cs" t="Include" />
+              <e p="BindingSyntax.cs" t="Include" />
+              <e p="IBinding.cs" t="Include" />
+              <e p="IBindingBuilder.cs" t="Include" />
+              <e p="IBindingMetadata.cs" t="Include" />
+              <e p="IBindingToSyntax.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="IServiceLocator.cs" t="Include" />
+              <e p="IServiceModule.cs" t="Include" />
+            </e>
+            <e p="Kernel" t="Include">
+              <e p="ILocatorReadOnlyKernel.cs" t="Include" />
+              <e p="ILocatorStandardKernel.cs" t="Include" />
+            </e>
+            <e p="Locator" t="Include">
+              <e p="ServiceLocator.cs" t="Include" />
+            </e>
+            <e p="MikeAssets.ModularServiceLocator.asmdef" t="Include" />
+            <e p="Modules" t="Include">
+              <e p="LocatorModule.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="com.stansassets.plugins-dev-kit" t="Include">
           <e p="Editor" t="Include">
             <e p="Config" t="Include">

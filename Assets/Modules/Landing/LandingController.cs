@@ -14,8 +14,8 @@ namespace SolarSystem.Modules.Landing
             {
                 App.State.Set(GameState.Menu);
                 
-                var sceneService = App.Services.Get<ISceneService>();
-                sceneService.Unload(AppConfig.LandingSceneName, null);
+                //var sceneService = App.Services.Get<ISceneService>();
+                //sceneService.Unload(AppConfig.LandingSceneName, null);
             });
         }
     }    

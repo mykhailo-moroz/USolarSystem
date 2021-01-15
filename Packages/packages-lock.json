@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.mikeassets.modular-service-locator": {
+      "version": "file:com.mikeassets.modular-service-locator",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.stansassets.foundation": {
       "version": "1.0.17",
       "depth": 0,

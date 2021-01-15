@@ -1,7 +1,4 @@
 using SolarSystem.Modules.Core.Abstract;
-using SolarSystem.Modules.Core.Infrastructure;
-using SolarSystem.Modules.Core.Interfaces;
-using SolarSystem.Modules.Core.Services.Pooling;
 
 namespace SolarSystem.Modules.Core
 {
@@ -9,8 +6,8 @@ namespace SolarSystem.Modules.Core
     {
         public override void Load()
         {
-            Bind<ISceneService, IPreloadService>().To<DefaultSceneLoadService>().InSingletonScope();
-            Bind<IPoolingService>().ToConstant(new GameObjectsPool("GameObjects Pool"));
+            //Bind<ISceneService, IPreloadService>().To<DefaultSceneLoadService>().InSingletonScope();
+            //Bind<IPoolingService>().ToConstant(new GameObjectsPool("GameObjects Pool"));
         }
     }
 }

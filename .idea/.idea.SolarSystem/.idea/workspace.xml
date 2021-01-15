@@ -20,26 +20,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fe6d55-baf0-47dc-a20f-884d6382231a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Binding.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Binding.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingRoot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingRoot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingSyntax.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingSyntax.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBinding.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBinding.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingBuilder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingMetadata.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingMetadata.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingToSyntax.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingToSyntax.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceLocator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorReadOnlyKernel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorReadOnlyKernel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorStandardKernel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorStandardKernel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator/ServiceLocator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator/ServiceLocator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules/LocatorModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules/LocatorModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Settings/com.stansassets.scene-management/Editor/Resources/SceneManagementSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StansAssets/Settings/com.stansassets.scene-management/Editor/Resources/SceneManagementSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/com.stansassets.plugins-dev-kit.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/com.stansassets.scene-management.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Abstract/ApplicationModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Abstract/ApplicationModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/CoreModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/CoreModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/ServiceLocator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/ServiceLocator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/SolarSystem.Core.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/SolarSystem.Core.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/States/ApplicationState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/States/ApplicationState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/LevelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Ninject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Ninject/Ninject.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Ninject/Ninject.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Ninject/Ninject.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Ninject/Ninject.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSON File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8E889372-00DC-4962-B5C6-3133D2365761/44/7eba965b/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.stansassets.foundation@1.0.17/Editor/EditorUtilities/UIToolkitEditorUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D496C8E-82AE-4EBD-B5D2-754C57C486CF/1b/580530e5/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D496C8E-82AE-4EBD-B5D2-754C57C486CF/ad/6cea3f3f/AsyncOperation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D496C8E-82AE-4EBD-B5D2-754C57C486CF/ff/436c5ea7/InvokableCall.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D496C8E-82AE-4EBD-B5D2-754C57C486CF/fa/ee83a950/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/02623B1C-40A0-44F8-AAEC-4D8809C32F99/15/fff13637/BindingRoot.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,20 +103,14 @@
         <option value="$PROJECT_DIR$/Assets/Plugins/com.stansassets.scene-management/Runtime/Utilities/ApplicationStateStack/IReadOnlyApplicationStateStack.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/com.stansassets.scene-management/Runtime/Utilities/ApplicationStateStack/IApplicationStateStack.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IApplicationModule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Abstract/ApplicationModule.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling/PoolableGameObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling/IPoolingService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/CoreModule.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/ISceneService.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling/GameObjectsPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Core/States/MenuAppState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/States/ApplicationState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/UI/Preloader/DefaultPreloader.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/ServiceLocator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/GamePlayModule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/LevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/IMainMenuController.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Core/Static/GameServices.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Core/Config/AppConfig.cs" />
@@ -71,7 +118,29 @@
         <option value="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/DefaultSceneLoadService.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IPreloadService.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/package.json" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceLocator.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceModule.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBinding.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Binding.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingMetadata.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingRoot.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator/ServiceLocator.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorStandartKernel.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingSyntax.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingSyntax.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingBuilder.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingToSyntax.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorReadOnlyKernel.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorStandardKernel.cs" />
+        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules/LocatorModule.cs" />
         <option value="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/States/ApplicationState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/LevelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/Abstract/ApplicationModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/Core/CoreModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/GamePlayModule.cs" />
       </list>
     </option>
   </component>
@@ -80,6 +149,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -133,6 +203,19 @@
       <workItem from="1603531889731" duration="764000" />
       <workItem from="1603532769782" duration="190000" />
       <workItem from="1603536265598" duration="320000" />
+      <workItem from="1608676694578" duration="78000" />
+      <workItem from="1608676883980" duration="119000" />
+      <workItem from="1609443435593" duration="712000" />
+      <workItem from="1609444170014" duration="16000" />
+      <workItem from="1609448410129" duration="908000" />
+      <workItem from="1609597724684" duration="2078000" />
+      <workItem from="1609622655802" duration="469000" />
+      <workItem from="1609960501310" duration="739000" />
+      <workItem from="1610016073548" duration="980000" />
+      <workItem from="1610293839986" duration="2433000" />
+      <workItem from="1610355007564" duration="1262000" />
+      <workItem from="1610575505898" duration="325000" />
+      <workItem from="1610738419192" duration="3035000" />
     </task>
     <servers />
   </component>
@@ -157,6 +240,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="622" y="371" key="#Notifications" timestamp="1609444122741">
+      <screen x="0" y="25" width="1792" height="1035" />
+    </state>
+    <state x="622" y="371" key="#Notifications/0.25.1792.1035@0.25.1792.1035" timestamp="1609444122741" />
+    <state x="584" y="282" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1609443438544">
+      <screen x="0" y="25" width="1792" height="1035" />
+    </state>
+    <state x="584" y="282" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1792.1035@0.25.1792.1035" timestamp="1609443438544" />
     <state width="454" height="464" key="DebuggerActiveHint" timestamp="1603531718212">
       <screen x="0" y="23" width="1792" height="1043" />
     </state>
@@ -225,10 +316,11 @@
       <screen x="0" y="23" width="1792" height="1043" />
     </state>
     <state width="1750" height="379" key="GridCell.Tab.3.right/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848126" />
-    <state x="672" y="253" key="RiderGenerateDialog" timestamp="1603300327470">
-      <screen x="0" y="23" width="1792" height="1043" />
+    <state x="672" y="253" key="RiderGenerateDialog" timestamp="1610740990612">
+      <screen x="0" y="25" width="1792" height="1035" />
     </state>
     <state x="672" y="253" key="RiderGenerateDialog/0.23.1792.1043@0.23.1792.1043" timestamp="1603300327470" />
+    <state x="672" y="253" key="RiderGenerateDialog/0.25.1792.1035@0.25.1792.1035" timestamp="1610740990612" />
     <state x="397" y="183" key="SettingsEditor" timestamp="1603283322709">
       <screen x="0" y="23" width="1792" height="1043" />
     </state>
@@ -250,10 +342,10 @@
           <line>21</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" initialLine="18">
             <startOffsets>
-              <option value="585" />
+              <option value="545" />
             </startOffsets>
             <endOffsets>
-              <option value="615" />
+              <option value="575" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
@@ -263,10 +355,10 @@
           <line>17</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Modules/UI/Preloader/DefaultPreloader.cs" initialLine="17">
             <startOffsets>
-              <option value="451" />
+              <option value="457" />
             </startOffsets>
             <endOffsets>
-              <option value="452" />
+              <option value="458" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
@@ -276,23 +368,23 @@
           <line>23</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Modules/UI/Preloader/DefaultPreloader.cs" initialLine="23">
             <startOffsets>
-              <option value="622" />
+              <option value="628" />
             </startOffsets>
             <endOffsets>
-              <option value="623" />
+              <option value="629" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/DefaultSceneLoadService.cs</url>
-          <line>16</line>
+          <line>15</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/DefaultSceneLoadService.cs" initialLine="16">
             <startOffsets>
-              <option value="525" />
+              <option value="507" />
             </startOffsets>
             <endOffsets>
-              <option value="567" />
+              <option value="549" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
@@ -300,14 +392,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Plugins/com.stansassets.scene-management/Runtime/Core/SceneLoadService.cs</url>
           <line>33</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Plugins/com.stansassets.scene-management/Runtime/Core/SceneLoadService.cs" initialLine="33">
-            <startOffsets>
-              <option value="1132" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1165" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/Assets/Plugins/com.stansassets.scene-management/Runtime/Core/SceneLoadService.cs" initialLine="33" />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>

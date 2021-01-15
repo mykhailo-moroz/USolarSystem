@@ -2,7 +2,8 @@
     "name": "SolarSystem.Core",
     "references": [
         "GUID:8c26edb72a5b44ef39c0bd009ec1322d",
-        "GUID:db0eb1f6c1244402aa4d287a997cdb47"
+        "GUID:db0eb1f6c1244402aa4d287a997cdb47",
+        "GUID:91f3cfd56b0764fb4973380790cc548e"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
