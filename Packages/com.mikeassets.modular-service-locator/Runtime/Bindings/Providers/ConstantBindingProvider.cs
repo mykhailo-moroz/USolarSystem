@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using SolarSystem.Interfaces;
 
 namespace MikeAssets.ModularServiceLocator.Bindings.Providers
 {
@@ -12,9 +13,9 @@ namespace MikeAssets.ModularServiceLocator.Bindings.Providers
             m_service = service;
         }
         
-        public override object ResolveValue(Type contract)
+        public override object ResolveValue(IResolveRequest request)
         {
-            return Contracts.Contains(contract) ? m_service : null;
+            return Contracts.Contains(request.Service) ? m_service : null;
         }
     }
 }

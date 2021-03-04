@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
+using SolarSystem.Interfaces;
 
 namespace MikeAssets.ModularServiceLocator.Interfaces
 {
@@ -8,6 +9,6 @@ namespace MikeAssets.ModularServiceLocator.Interfaces
     {
         ConcurrentBag<Type> Contracts { get; }
 
-        object ResolveValue(Type contract);
+        object ResolveValue(IResolveRequest request);
     }
 }

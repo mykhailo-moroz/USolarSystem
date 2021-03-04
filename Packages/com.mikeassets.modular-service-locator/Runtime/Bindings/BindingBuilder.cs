@@ -10,13 +10,16 @@ namespace MikeAssets.ModularServiceLocator.Bindings
         {
         }
 
-        public void To<TImplementation>(TImplementation implementatnion) where TImplementation : T
+        public void To<TImplementation>() where TImplementation : T
         {
             m_configuration.BindingType = BindingType.Transient;
 
             var service = typeof(T);
-            var provider = new TransientBindingProvider();
+            var implementationType = typeof(TImplementation);
+            var provider = new TransientBindingProvider(implementationType);
             provider.Contracts.Add(service);
+
+            m_configuration.Provider = provider;
         }
 
         public void ToConstant(object constant)
@@ -27,6 +30,8 @@ namespace MikeAssets.ModularServiceLocator.Bindings
             var provider = new ConstantBindingProvider(constant);
             
             provider.Contracts.Add(service);
+
+            m_configuration.Provider = provider;
         }
     }
     
@@ -36,14 +41,16 @@ namespace MikeAssets.ModularServiceLocator.Bindings
         {
         }
 
-        public void To<TImplementation>(TImplementation implementatnion) where TImplementation : T1, T2
+        public void To<TImplementation>() where TImplementation : T1, T2
         {
             m_configuration.BindingType = BindingType.Transient;
 
             var service1 = typeof(T1);
             var service2 = typeof(T2);
+
+            var implementationType = typeof(TImplementation);
             
-            var provider = new TransientBindingProvider();
+            var provider = new TransientBindingProvider(implementationType);
             provider.Contracts.Add(service1);
             provider.Contracts.Add(service2);
 

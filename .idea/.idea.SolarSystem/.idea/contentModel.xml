@@ -87,9 +87,13 @@
                 <e p="ConstantBindingProvider.cs" t="Include" />
                 <e p="TransientBindingProvider.cs" t="Include" />
               </e>
+              <e p="ResolveRequest.cs" t="Include" />
             </e>
             <e p="Enums" t="Include">
               <e p="BindingType.cs" t="Include" />
+            </e>
+            <e p="Exceptions" t="Include">
+              <e p="MissingConstructorParamException.cs" t="Include" />
             </e>
             <e p="Interfaces" t="Include">
               <e p="IBinding.cs" t="Include" />
@@ -97,7 +101,9 @@
               <e p="IBindingConfiguration.cs" t="Include" />
               <e p="IBindingProvider.cs" t="Include" />
               <e p="IBindingRoot.cs" t="Include" />
+              <e p="IReadOnlyBindingRoot.cs" t="Include" />
               <e p="IResolutionRoot.cs" t="Include" />
+              <e p="IResolveRequest.cs" t="Include" />
               <e p="IServiceLocator.cs" t="Include" />
             </e>
             <e p="Locator" t="Include">

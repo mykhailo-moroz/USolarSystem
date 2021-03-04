@@ -1,3 +1,4 @@
+using MikeAssets.ModularServiceLocator.Bindings;
 using MikeAssets.ModularServiceLocator.Interfaces;
 
 namespace MikeAssets.ModularServiceLocator.Static
@@ -8,8 +9,10 @@ namespace MikeAssets.ModularServiceLocator.Static
         {
             var service = typeof(T);
             var provider = resolutionRoot.ResolveProvider<T>();
+
+            var request = new ResolveRequest(resolutionRoot.Root, service);
             
-            return (T)provider.ResolveValue(service);
+            return (T)provider.ResolveValue(request);
         }
     }
 }

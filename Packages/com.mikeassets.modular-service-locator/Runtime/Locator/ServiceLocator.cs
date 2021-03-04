@@ -1,11 +1,14 @@
 using MikeAssets.ModularServiceLocator.Bindings;
 using MikeAssets.ModularServiceLocator.Interfaces;
 using MikeAssets.ModularServiceLocator.Modules;
+using SolarSystem.Interfaces;
 
 namespace MikeAssets.ModularServiceLocator.Locator
 {
     public class ServiceLocator : BindingRoot, IServiceLocator
     {
+        public IReadOnlyBindingRoot Root => this;
+        
         public bool IsModuleRegistered(string name)
         {
             return IsModuleExists(name);
@@ -21,7 +24,6 @@ namespace MikeAssets.ModularServiceLocator.Locator
             base.UnregisterModule(name);
         }
 
-        
         public IBindingProvider ResolveProvider<T>()
         {
             var service = typeof(T);

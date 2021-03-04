@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using MikeAssets.ModularServiceLocator.Bindings;
+using SolarSystem.Interfaces;
 
 namespace MikeAssets.ModularServiceLocator.Interfaces
 {
-    public interface IBindingRoot
+    public interface IBindingRoot : IReadOnlyBindingRoot
     {
-        List<IBinding> Bindings { get; }
         void AddBinding(IBinding binding);
         void RemoveBinding(IBinding binding);
 

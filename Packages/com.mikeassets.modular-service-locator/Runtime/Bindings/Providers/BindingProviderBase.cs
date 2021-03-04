@@ -2,6 +2,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using MikeAssets.ModularServiceLocator.Interfaces;
+using SolarSystem.Interfaces;
 
 namespace MikeAssets.ModularServiceLocator.Bindings.Providers
 {
@@ -9,7 +10,7 @@ namespace MikeAssets.ModularServiceLocator.Bindings.Providers
     {
         public ConcurrentBag<Type> Contracts { get; }
 
-        public abstract object ResolveValue(Type contract);
+        public abstract object ResolveValue(IResolveRequest request);
 
         protected BindingProviderBase()
         {
