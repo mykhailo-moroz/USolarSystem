@@ -1,5 +1,4 @@
-﻿using System;
-using SolarSystem.Modules.Core.Static;
+﻿using SolarSystem.Modules.Core.Static;
 using UnityEngine;
 
 namespace SolarSystem.Modules.GamePlay.Scripts.Managers
@@ -11,7 +10,7 @@ namespace SolarSystem.Modules.GamePlay.Scripts.Managers
         private void Awake()
         {
             var module = new GamePlayModule();
-            //m_gameplayModuleName = module.Name;
+            m_gameplayModuleName = module.Name;
             App.RegisterModule(module);
         }
 

@@ -1,4 +1,5 @@
 using System;
+using MikeAssets.ModularServiceLocator.Interfaces;
 
 namespace MikeAssets.ModularServiceLocator.Bindings
 {
@@ -6,6 +7,6 @@ namespace MikeAssets.ModularServiceLocator.Bindings
     {
         Type Service { get; }
         
-        IBindingMetadata Metadata { get; }
+        IBindingConfiguration Configuration { get; }
     }
 }

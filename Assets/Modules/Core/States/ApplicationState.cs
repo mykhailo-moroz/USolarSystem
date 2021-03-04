@@ -1,4 +1,7 @@
-﻿using SolarSystem.Modules.Core.Enums;
+﻿using MikeAssets.ModularServiceLocator.Static;
+using SolarSystem.Modules.Core.Enums;
+using SolarSystem.Modules.Core.Interfaces;
+using SolarSystem.Modules.Core.Static;
 using StansAssets.SceneManagement;
 
 namespace SolarSystem.Modules.Core.States
@@ -9,8 +12,8 @@ namespace SolarSystem.Modules.Core.States
 
         protected ApplicationState()
         {
-            //var sceneService = App.Services.Get<ISceneService>();
-            //m_SceneActionsQueue = new SceneActionsQueue(sceneService);
+            var sceneService = App.Services.Get<ISceneService>();
+            m_SceneActionsQueue = new SceneActionsQueue(sceneService);
         }
 
         protected void AddSceneAction(SceneActionType type, string sceneName)

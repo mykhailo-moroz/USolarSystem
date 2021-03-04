@@ -1,4 +1,5 @@
-﻿using SolarSystem.Modules.Core.Config;
+﻿using MikeAssets.ModularServiceLocator.Static;
+using SolarSystem.Modules.Core.Config;
 using SolarSystem.Modules.Core.Enums;
 using SolarSystem.Modules.Core.Interfaces;
 using SolarSystem.Modules.Core.Static;
@@ -14,8 +15,8 @@ namespace SolarSystem.Modules.Landing
             {
                 App.State.Set(GameState.Menu);
                 
-                //var sceneService = App.Services.Get<ISceneService>();
-                //sceneService.Unload(AppConfig.LandingSceneName, null);
+                var sceneService = App.Services.Get<ISceneService>();
+                sceneService.Unload(AppConfig.LandingSceneName, null);
             });
         }
     }    

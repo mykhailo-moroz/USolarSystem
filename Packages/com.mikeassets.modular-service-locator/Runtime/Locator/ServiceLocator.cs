@@ -1,26 +1,32 @@
-using System;
-using System.Collections.Generic;
 using MikeAssets.ModularServiceLocator.Bindings;
+using MikeAssets.ModularServiceLocator.Interfaces;
+using MikeAssets.ModularServiceLocator.Modules;
 
 namespace MikeAssets.ModularServiceLocator.Locator
 {
     public class ServiceLocator : BindingRoot, IServiceLocator
     {
-        private readonly Dictionary<Type, IBinding> m_bindings;
-
-        public ServiceLocator()
+        public bool IsModuleRegistered(string name)
         {
-            m_bindings = new Dictionary<Type, IBinding>();
+            return IsModuleExists(name);
         }
+
+        public void RegisterModule(LocatorModule module)
+        {
+            base.RegisterModule(module);
+        }
+
+        public void UnregisterModule(string name)
+        {
+            base.UnregisterModule(name);
+        }
+
         
-        public override void AddBinding(IBinding binding)
+        public IBindingProvider ResolveProvider<T>()
         {
-            m_bindings.Add(binding.Service, binding);
-        }
+            var service = typeof(T);
 
-        public override void RemoveBinding(IBinding binding)
-        {
-            m_bindings.Remove(binding.Service);
+            return m_bindings.TryGetValue(service, out var binding) ? binding.Configuration.Provider : null;
         }
     }
 }

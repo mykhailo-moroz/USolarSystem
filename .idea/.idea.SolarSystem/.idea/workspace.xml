@@ -20,54 +20,90 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fe6d55-baf0-47dc-a20f-884d6382231a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Binding.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Binding.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingRoot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingSyntax.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingSyntax.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBinding.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBinding.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingBuilder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingMetadata.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingMetadata.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingToSyntax.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingToSyntax.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceLocator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceModule.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorReadOnlyKernel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorReadOnlyKernel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorStandardKernel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorStandardKernel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator/ServiceLocator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator/ServiceLocator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules/LocatorModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules/LocatorModule.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingBuilder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingBuilderBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingBuilderBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingConfiguration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/BindingProviderBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/BindingProviderBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/ConstantBindingProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/ConstantBindingProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/TransientBindingProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/TransientBindingProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Enums.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Enums/BindingType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Enums/BindingType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBinding.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBinding.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingBuilder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingConfiguration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingRoot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingRoot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IResolutionRoot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IResolutionRoot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Static.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Static/ResolutionRootExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Static/ResolutionRootExtension.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Abstract/ApplicationModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Abstract/ApplicationModule.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/CoreModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/CoreModule.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/ServiceLocator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/ServiceLocator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/SolarSystem.Core.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/SolarSystem.Core.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/States/ApplicationState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/States/ApplicationState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/LevelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/SolarSystem.GamePlay.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/SolarSystem.GamePlay.asmdef" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Ninject.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Ninject/Ninject.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Ninject/Ninject.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Ninject/Ninject.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Ninject/Ninject.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Binding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Binding.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Binding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Binding.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingRoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingRoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingRoot.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingRoot.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingSyntax.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingSyntax.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBinding.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBinding.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingBuilder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingBuilder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingMetadata.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingMetadata.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingToSyntax.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingToSyntax.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceLocator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceLocator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceLocator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceModule.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceModule.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorReadOnlyKernel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorReadOnlyKernel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorStandardKernel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorStandardKernel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator/ServiceLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator/ServiceLocator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator/ServiceLocator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator/ServiceLocator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules/LocatorModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules/LocatorModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules/LocatorModule.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules/LocatorModule.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.stansassets.plugins-dev-kit/Editor/IMGUI/Headers/IMGUIBlockWithIndent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.stansassets.plugins-dev-kit/Editor/IMGUI/Headers/IMGUIBlockWithIndent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.stansassets.plugins-dev-kit/Editor/UIToolkit/SettingsWindow/BaseTab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.stansassets.plugins-dev-kit/Editor/UIToolkit/SettingsWindow/BaseTab.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.stansassets.scene-management/Editor/Settings/SceneManagementEditorMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.stansassets.scene-management/Editor/Settings/SceneManagementEditorMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.stansassets.scene-management/Editor/Window/Tabs/SettingsTab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.stansassets.scene-management/Editor/Window/Tabs/SettingsTab.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.stansassets.scene-management/Runtime/Core/SceneActionsQueue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.stansassets.scene-management/Runtime/Core/SceneActionsQueue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.stansassets.scene-management/Runtime/Models/StackChangeEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.stansassets.scene-management/Runtime/Models/StackChangeEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.stansassets.scene-management/Runtime/Models/StackEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.stansassets.scene-management/Runtime/Models/StackEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.stansassets.scene-management/Runtime/Statis/AdditiveScenesLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.stansassets.scene-management/Runtime/Statis/AdditiveScenesLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.stansassets.scene-management/Runtime/Statis/AddressableSceneUnloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.stansassets.scene-management/Runtime/Statis/AddressableSceneUnloader.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,64 +121,46 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D496C8E-82AE-4EBD-B5D2-754C57C486CF/ad/6cea3f3f/AsyncOperation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.stansassets.foundation@1.0.17/Tests/Editor/Patterns/EventBusTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D496C8E-82AE-4EBD-B5D2-754C57C486CF/ff/436c5ea7/InvokableCall.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.stansassets.foundation@1.0.17/Tests/Editor/Patterns/ObjectPoolTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.stansassets.foundation@1.0.17/Runtime/Patterns/ServiceLocator/IServiceLocator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D496C8E-82AE-4EBD-B5D2-754C57C486CF/fa/ee83a950/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/44/0865fb0b/ConcurrentDictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/02623B1C-40A0-44F8-AAEC-4D8809C32F99/15/fff13637/BindingRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.stansassets.foundation@1.0.17/Runtime/Patterns/ServiceLocator/IReadOnlyServiceLocator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8E889372-00DC-4962-B5C6-3133D2365761/44/7eba965b/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.stansassets.foundation@1.0.17/Editor/EditorUtilities/UIToolkitEditorUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D496C8E-82AE-4EBD-B5D2-754C57C486CF/1b/580530e5/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D496C8E-82AE-4EBD-B5D2-754C57C486CF/ad/6cea3f3f/AsyncOperation.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D496C8E-82AE-4EBD-B5D2-754C57C486CF/ff/436c5ea7/InvokableCall.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3D496C8E-82AE-4EBD-B5D2-754C57C486CF/fa/ee83a950/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/02623B1C-40A0-44F8-AAEC-4D8809C32F99/15/fff13637/BindingRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.stansassets.foundation@1.0.17/Runtime/Patterns/ServiceLocator/ServiceLocator.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/States/PauseAppState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IReadOnlyServiceLocator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/PreloadManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/com.stansassets.scene-management/Runtime/Utilities/ApplicationStateStack/IReadOnlyApplicationStateStack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/com.stansassets.scene-management/Runtime/Utilities/ApplicationStateStack/IApplicationStateStack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IApplicationModule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling/PoolableGameObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling/IPoolingService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/ISceneService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Services/Pooling/GameObjectsPool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/States/MenuAppState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/UI/Preloader/DefaultPreloader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IServiceLocator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/ServiceLocator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/IMainMenuController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Static/GameServices.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Config/AppConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/States/GameAppState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/DefaultSceneLoadService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Interfaces/IPreloadService.cs" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/package.json" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceLocator.cs" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceModule.cs" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBinding.cs" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Binding.cs" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingMetadata.cs" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingRoot.cs" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator/ServiceLocator.cs" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorStandartKernel.cs" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingSyntax.cs" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingSyntax.cs" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingBuilder.cs" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/IBindingToSyntax.cs" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorReadOnlyKernel.cs" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Kernel/ILocatorStandardKernel.cs" />
-        <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules/LocatorModule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/States/ApplicationState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/LevelController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/Abstract/ApplicationModule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/Core/CoreModule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/GamePlayModule.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/TransientBindingProvider.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/BindingProviderBase.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingProvider.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/ConstantBindingProvider.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBinding.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingConfiguration.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Binding.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IResolutionRoot.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/Core/CoreModule.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingRoot.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IReadOnlyServiceLocator.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Static/ResolutionRootExtention.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingBuilder.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/LevelController.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules/LocatorModule.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceLocator.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator/ServiceLocator.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingRoot.cs" />
+      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Static/ResolutionRootExtension.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/Core/Abstract/ApplicationModule.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/Core/States/ApplicationState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1j75ORAipvetRNku9vCDk4xnohQ" />
   <component name="ProjectLevelVcsManager">
@@ -150,13 +168,15 @@
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502036" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30017453" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -169,16 +189,16 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="2518">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="2518" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -215,7 +235,34 @@
       <workItem from="1610293839986" duration="2433000" />
       <workItem from="1610355007564" duration="1262000" />
       <workItem from="1610575505898" duration="325000" />
-      <workItem from="1610738419192" duration="3035000" />
+      <workItem from="1610738419192" duration="3122000" />
+      <workItem from="1610827376611" duration="1066000" />
+      <workItem from="1610975852410" duration="12000" />
+      <workItem from="1611054897085" duration="1255000" />
+      <workItem from="1611234626986" duration="4845000" />
+      <workItem from="1611256061784" duration="5238000" />
+      <workItem from="1611304599407" duration="1308000" />
+      <workItem from="1611574512452" duration="3312000" />
+      <workItem from="1611597475585" duration="168000" />
+      <workItem from="1611601578923" duration="2560000" />
+      <workItem from="1611610155379" duration="1698000" />
+      <workItem from="1611660577312" duration="1450000" />
+      <workItem from="1612171159613" duration="430000" />
+      <workItem from="1612437069797" duration="2563000" />
+      <workItem from="1612440351716" duration="270000" />
+      <workItem from="1612560639330" duration="1762000" />
+      <workItem from="1612878673122" duration="469000" />
+      <workItem from="1612904537349" duration="270000" />
+      <workItem from="1612970645668" duration="830000" />
+      <workItem from="1612972417794" duration="506000" />
+      <workItem from="1612989520226" duration="2502000" />
+      <workItem from="1613984821220" duration="550000" />
+      <workItem from="1614093352198" duration="417000" />
+      <workItem from="1614093775097" duration="658000" />
+      <workItem from="1614257325691" duration="3459000" />
+      <workItem from="1614596558634" duration="2150000" />
+      <workItem from="1614850695562" duration="805000" />
+      <workItem from="1614851599773" duration="3011000" />
     </task>
     <servers />
   </component>
@@ -238,101 +285,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="622" y="371" key="#Notifications" timestamp="1609444122741">
-      <screen x="0" y="25" width="1792" height="1035" />
-    </state>
-    <state x="622" y="371" key="#Notifications/0.25.1792.1035@0.25.1792.1035" timestamp="1609444122741" />
-    <state x="584" y="282" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1609443438544">
-      <screen x="0" y="25" width="1792" height="1035" />
-    </state>
-    <state x="584" y="282" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1792.1035@0.25.1792.1035" timestamp="1609443438544" />
-    <state width="454" height="464" key="DebuggerActiveHint" timestamp="1603531718212">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="454" height="464" key="DebuggerActiveHint/0.23.1792.1043@0.23.1792.1043" timestamp="1603531718212" />
-    <state width="1750" height="379" key="GridCell.Tab.0.bottom" timestamp="1603531848123">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.0.bottom/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848123" />
-    <state width="1750" height="379" key="GridCell.Tab.0.center" timestamp="1603531848123">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.0.center/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848123" />
-    <state width="1750" height="379" key="GridCell.Tab.0.left" timestamp="1603531848123">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.0.left/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848123" />
-    <state width="1750" height="379" key="GridCell.Tab.0.right" timestamp="1603531848123">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.0.right/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848123" />
-    <state width="1750" height="379" key="GridCell.Tab.1.bottom" timestamp="1603531848124">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.1.bottom/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848124" />
-    <state width="1750" height="379" key="GridCell.Tab.1.center" timestamp="1603531848124">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.1.center/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848124" />
-    <state width="1750" height="379" key="GridCell.Tab.1.left" timestamp="1603531848124">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.1.left/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848124" />
-    <state width="1750" height="379" key="GridCell.Tab.1.right" timestamp="1603531848124">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.1.right/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848124" />
-    <state width="1750" height="379" key="GridCell.Tab.2.bottom" timestamp="1603531848125">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.2.bottom/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848125" />
-    <state width="1750" height="379" key="GridCell.Tab.2.center" timestamp="1603531848125">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.2.center/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848125" />
-    <state width="1750" height="379" key="GridCell.Tab.2.left" timestamp="1603531848124">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.2.left/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848124" />
-    <state width="1750" height="379" key="GridCell.Tab.2.right" timestamp="1603531848125">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.2.right/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848125" />
-    <state width="1750" height="379" key="GridCell.Tab.3.bottom" timestamp="1603531848126">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.3.bottom/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848126" />
-    <state width="1750" height="379" key="GridCell.Tab.3.center" timestamp="1603531848126">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.3.center/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848126" />
-    <state width="1750" height="379" key="GridCell.Tab.3.left" timestamp="1603531848125">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.3.left/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848125" />
-    <state width="1750" height="379" key="GridCell.Tab.3.right" timestamp="1603531848126">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state width="1750" height="379" key="GridCell.Tab.3.right/0.23.1792.1043@0.23.1792.1043" timestamp="1603531848126" />
-    <state x="672" y="253" key="RiderGenerateDialog" timestamp="1610740990612">
-      <screen x="0" y="25" width="1792" height="1035" />
-    </state>
-    <state x="672" y="253" key="RiderGenerateDialog/0.23.1792.1043@0.23.1792.1043" timestamp="1603300327470" />
-    <state x="672" y="253" key="RiderGenerateDialog/0.25.1792.1035@0.25.1792.1035" timestamp="1610740990612" />
-    <state x="397" y="183" key="SettingsEditor" timestamp="1603283322709">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state x="397" y="183" key="SettingsEditor/0.23.1792.1043@0.23.1792.1043" timestamp="1603283322709" />
-    <state x="100" y="123" width="1592" height="843" key="VCS.FileHistoryDialog" timestamp="1603532456980">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state x="100" y="123" width="1592" height="843" key="VCS.FileHistoryDialog/0.23.1792.1043@0.23.1792.1043" timestamp="1603532456980" />
-    <state x="559" y="252" width="672" height="678" key="search.everywhere.popup" timestamp="1603300313265">
-      <screen x="0" y="23" width="1792" height="1043" />
-    </state>
-    <state x="559" y="252" width="672" height="678" key="search.everywhere.popup/0.23.1792.1043@0.23.1792.1043" timestamp="1603300313265" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -394,6 +346,19 @@
           <line>33</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Plugins/com.stansassets.scene-management/Runtime/Core/SceneLoadService.cs" initialLine="33" />
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs</url>
+          <line>22</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" initialLine="22" containingFunctionPresentation="method 'Init'">
+            <startOffsets>
+              <option value="930" />
+            </startOffsets>
+            <endOffsets>
+              <option value="931" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

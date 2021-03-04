@@ -1,12 +1,19 @@
-using UnityEditor;
+using MikeAssets.ModularServiceLocator.Bindings;
 
-namespace MikeAssets.ModularServiceLocator
+namespace MikeAssets.ModularServiceLocator.Modules
 {
-    public abstract class LocatorModule
+    public abstract class LocatorModule : BindingRoot
     {
+        public string Name { get; }
+
+        public LocatorModule()
+        {
+            Name = GetType().ToString();
+        }
+        
         public abstract void Load();
 
-        public virtual void OnUnload()
+        public virtual void Unload()
         {
             
         }

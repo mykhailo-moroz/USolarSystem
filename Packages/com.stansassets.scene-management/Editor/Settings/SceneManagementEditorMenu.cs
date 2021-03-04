@@ -1,5 +1,4 @@
 #if UNITY_2019_4_OR_NEWER
-using StansAssets.Plugins.Editor;
 using UnityEditor;
 
 namespace StansAssets.SceneManagement

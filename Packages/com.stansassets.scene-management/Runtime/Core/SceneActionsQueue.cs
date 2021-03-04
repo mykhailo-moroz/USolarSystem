@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using StansAssets.Foundation.Async;
-using StansAssets.Foundation.Patterns;
 using UnityEngine;
 
 namespace StansAssets.SceneManagement
