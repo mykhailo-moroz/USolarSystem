@@ -10,7 +10,7 @@ namespace MikeAssets.ModularServiceLocator.Bindings
         {
         }
 
-        public void To<TImplementation>() where TImplementation : T
+        public void ToTransient<TImplementation>() where TImplementation : T
         {
             m_configuration.BindingType = BindingType.Transient;
 
@@ -41,7 +41,7 @@ namespace MikeAssets.ModularServiceLocator.Bindings
         {
         }
 
-        public void To<TImplementation>() where TImplementation : T1, T2
+        public void ToTransient<TImplementation>() where TImplementation : T1, T2
         {
             m_configuration.BindingType = BindingType.Transient;
 

@@ -22,12 +22,11 @@ namespace MikeAssets.ModularServiceLocator.Tests
     
     public class ServiceLocatorTests
     {
-        // A Test behaves as an ordinary method
         [Test]
         public void ShouldCreateSimpleTransientBinding()
         {
             var locator = new ServiceLocator();
-            locator.Bind<ITestService>().To<TestService>();
+            locator.Bind<ITestService>().ToTransient<TestService>();
 
             var service = locator.Get<ITestService>();
             Assert.IsNotNull(service);
@@ -37,8 +36,8 @@ namespace MikeAssets.ModularServiceLocator.Tests
         public void ShouldCreateTransientBindingsWithParams()
         {
             var locator = new ServiceLocator();
-            locator.Bind<ITestService>().To<TestService>();
-            locator.Bind<ITestParamsService>().To<TestParamsService>();
+            locator.Bind<ITestService>().ToTransient<TestService>();
+            locator.Bind<ITestParamsService>().ToTransient<TestParamsService>();
 
             var service = locator.Get<ITestParamsService>();
             Assert.IsNotNull(service);
