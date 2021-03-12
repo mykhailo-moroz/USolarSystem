@@ -11,6 +11,8 @@ namespace SolarSystem.Modules.UI.MainMenu
     {
         [SerializeField]
         private Button m_playButton;
+        [SerializeField]
+        private Button m_exitButton;
 
         [SerializeField]
         private GameObject m_mainMenu;
@@ -20,6 +22,11 @@ namespace SolarSystem.Modules.UI.MainMenu
             m_playButton.onClick.AddListener(() =>
             {
                 App.State.Set(GameState.Game);
+            });
+            
+            m_exitButton.onClick.AddListener(() =>
+            {
+                App.State.Set(GameState.Exit);
             });
         }
 

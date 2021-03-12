@@ -37,6 +37,7 @@
             <e p="States" t="Include">
               <e p="ApplicationState.cs" t="Include" />
               <e p="GameAppState.cs" t="Include" />
+              <e p="GameExitState.cs" t="Include" />
               <e p="MenuAppState.cs" t="Include" />
               <e p="PauseAppState.cs" t="Include" />
             </e>
@@ -46,10 +47,38 @@
           </e>
           <e p="GamePlay" t="Include">
             <e p="Scripts" t="Include">
+              <e p="Config" t="Include">
+                <e p="GameTags.cs" t="Include" />
+              </e>
               <e p="GamePlayModule.cs" t="Include" />
+              <e p="Interfaces" t="Include">
+                <e p="IInputService.cs" t="Include" />
+              </e>
               <e p="Managers" t="Include">
-                <e p="ILevelController.cs" t="Include" />
-                <e p="LevelController.cs" t="Include" />
+                <e p="GameController.cs" t="Include" />
+                <e p="IGameController.cs" t="Include" />
+              </e>
+              <e p="Static" t="Include">
+                <e p="Game.cs" t="Include" />
+                <e p="GizmosDrawingHelper.cs" t="Include" />
+              </e>
+              <e p="Systems" t="Include">
+                <e p="CharacterSystem" t="Include">
+                  <e p="IGameCharacter.cs" t="Include" />
+                </e>
+                <e p="InputSystem" t="Include">
+                  <e p="InputEventArgs.cs" t="Include" />
+                  <e p="InputReceiver.cs" t="Include" />
+                  <e p="InputService.cs" t="Include" />
+                </e>
+                <e p="SpawningSystem" t="Include">
+                  <e p="ISpawningPoint.cs" t="Include" />
+                  <e p="SpawningPoint.cs" t="Include" />
+                  <e p="SpawningPointEditor.cs" t="Include" />
+                </e>
+                <e p="StatsSystem" t="Include">
+                  <e p="ICharacterStat.cs" t="Include" />
+                </e>
               </e>
             </e>
             <e p="SolarSystem.GamePlay.asmdef" t="Include" />
@@ -59,9 +88,17 @@
             <e p="SolarSystem.Landing.asmdef" t="Include" />
           </e>
           <e p="UI" t="Include">
+            <e p="GamePlay" t="Include">
+              <e p="GameplayUIController.cs" t="Include" />
+              <e p="IGamePlayUIController.cs" t="Include" />
+            </e>
             <e p="MainMenu" t="Include">
               <e p="IMainMenuController.cs" t="Include" />
               <e p="MainMenuController.cs" t="Include" />
+            </e>
+            <e p="PauseMenu" t="Include">
+              <e p="IPauseMenuController.cs" t="Include" />
+              <e p="PauseMenuController.cs" t="Include" />
             </e>
             <e p="Preloader" t="Include">
               <e p="DefaultPreloader.cs" t="Include" />

@@ -20,10 +20,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fe6d55-baf0-47dc-a20f-884d6382231a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/States/GameExitState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Core/States/GameExitState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Config.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Config/GameTags.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Config/GameTags.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Interfaces.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Interfaces/IInputService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Interfaces/IInputService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Static.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Static/Game.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Static/Game.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Static/GizmosDrawingHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Static/GizmosDrawingHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/IGameCharacter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/IGameCharacter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem/InputEventArgs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem/InputEventArgs.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem/InputReceiver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem/InputReceiver.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem/InputService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem/InputService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/SpawningSystem.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/SpawningSystem/ISpawningPoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/SpawningSystem/ISpawningPoint.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/SpawningSystem/SpawningPoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/SpawningSystem/SpawningPoint.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/SpawningSystem/SpawningPointEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/SpawningSystem/SpawningPointEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/StatsSystem.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/StatsSystem/ICharacterStat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/StatsSystem/ICharacterStat.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/Gameplay/GamePlayUIController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/Gameplay/GameplayUIController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/Gameplay/IGamePlayUIController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/Gameplay/IGamePlayUIController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/PauseMenu.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/PauseMenu/IPauseMenuController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/PauseMenu/IPauseMenuController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/PauseMenu/PauseMenuController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/UI/PauseMenu/PauseMenuController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Tests/ServiceLocatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Tests/ServiceLocatorTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SolarSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Config/AppConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Config/AppConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Enums/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Enums/GameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scenes/Level01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scenes/Level01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/GamePlayModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/GamePlayModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/ILevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/IGameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/ILevelController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/IGameController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/LevelController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/GameController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/SolarSystem.GamePlay.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/SolarSystem.GamePlay.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/UI/SolarSystem.UI.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/UI/SolarSystem.UI.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +119,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBinding.cs" />
-      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingConfiguration.cs" />
-      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Binding.cs" />
-      <option value="$PROJECT_DIR$/Assets/Modules/Core/CoreModule.cs" />
-      <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IReadOnlyServiceLocator.cs" />
       <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Static/ResolutionRootExtention.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/LevelController.cs" />
       <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules/LocatorModule.cs" />
@@ -71,7 +126,6 @@
       <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingRoot.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/Core/Abstract/ApplicationModule.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/Core/States/ApplicationState.cs" />
-      <option value="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" />
       <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IReadOnlyBindingRoot.cs" />
       <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingRoot.cs" />
@@ -87,6 +141,35 @@
       <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/TransientBindingProvider.cs" />
       <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Tests/ServiceLocatorTests.cs" />
       <option value="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingBuilder.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/Core/Enums/GameState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/Core/States/GameExitState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/UI/Gameplay/IGamePlayUIController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/UI/Gameplay/GameplayUIController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/UI/Gameplay/GamePlayUIController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/Core/Config/AppConfig.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/UI/PauseMenu/IPauseMenuController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/UI/PauseMenu/PauseMenuController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Services/InputService.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/GamePlayModule.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Services/CharacterSystem/IGameCharacter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Services/InputSystem/InputReceiver.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Services/InputSystem/InputEventArgs.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Interfaces/IInputService.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Services/InputSystem/InputService.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Services/SpawningSystem/SpawningPoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Services/SpawningSystem/SpawningPointEditor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Config/GameTags.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Services/SpawningSystem/ISpawningService.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/SpawningSystem/ISpawningService.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/SpawningSystem/ISpawningPoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/StatsSystem/ICharacterStat.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/GameController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Static/Game.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/IGameCharacter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Static/GizmosDrawingHelper.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/SpawningSystem/SpawningPoint.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1j75ORAipvetRNku9vCDk4xnohQ" />
@@ -120,10 +203,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="8564">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="8564" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -190,7 +273,15 @@
       <workItem from="1614596558634" duration="2150000" />
       <workItem from="1614850695562" duration="805000" />
       <workItem from="1614851599773" duration="3381000" />
-      <workItem from="1614861398125" duration="4181000" />
+      <workItem from="1614861398125" duration="4662000" />
+      <workItem from="1615043584853" duration="17000" />
+      <workItem from="1615129802110" duration="5507000" />
+      <workItem from="1615279600426" duration="1954000" />
+      <workItem from="1615283916653" duration="4298000" />
+      <workItem from="1615452971621" duration="172000" />
+      <workItem from="1615455205294" duration="2590000" />
+      <workItem from="1615485163079" duration="1427000" />
+      <workItem from="1615546485676" duration="2314000" />
     </task>
     <servers />
   </component>
@@ -217,45 +308,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs</url>
-          <line>21</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" initialLine="18">
-            <startOffsets>
-              <option value="545" />
-            </startOffsets>
-            <endOffsets>
-              <option value="575" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Modules/UI/Preloader/DefaultPreloader.cs</url>
-          <line>17</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Modules/UI/Preloader/DefaultPreloader.cs" initialLine="17">
-            <startOffsets>
-              <option value="457" />
-            </startOffsets>
-            <endOffsets>
-              <option value="458" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Modules/UI/Preloader/DefaultPreloader.cs</url>
-          <line>23</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Modules/UI/Preloader/DefaultPreloader.cs" initialLine="23">
-            <startOffsets>
-              <option value="628" />
-            </startOffsets>
-            <endOffsets>
-              <option value="629" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Modules/Core/Infrastructure/DefaultSceneLoadService.cs</url>
           <line>15</line>

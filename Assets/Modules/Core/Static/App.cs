@@ -47,6 +47,7 @@ namespace SolarSystem.Modules.Core.Static
             s_applicationStateStack.RegisterState(GameState.Menu, new MenuAppState());
             s_applicationStateStack.RegisterState(GameState.Game, new GameAppState());
             s_applicationStateStack.RegisterState(GameState.Pause, new PauseAppState());
+            s_applicationStateStack.RegisterState(GameState.Exit, new GameExitState());
         }
     }
 }
