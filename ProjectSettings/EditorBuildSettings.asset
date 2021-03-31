@@ -21,4 +21,4 @@ EditorBuildSettings:
     path: Assets/Modules/UI/Gameplay/InGameUI.unity
     guid: cfb09d35f6f7e4d918daa00e27b6fbdc
   m_configObjects:
-    com.unity.addressableassets: {fileID: 11400000, guid: a6ead663cdab74b7ca0354f5ba2a9f81, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 9e3f5ebe90732f542aa042c2afccee32, type: 2}

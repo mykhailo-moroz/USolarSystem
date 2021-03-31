@@ -1,4 +1,6 @@
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine;
 
 namespace SolarSystem.Modules.GamePlay.Scripts.Static
@@ -7,6 +9,7 @@ namespace SolarSystem.Modules.GamePlay.Scripts.Static
     {
         public static void DrawWireCapsule(Vector3 pos, Quaternion rot, float radius, float height, Color color = default(Color))
         {
+#if UNITY_EDITOR
             if (color != default(Color))
                 Handles.color = color;
             Matrix4x4 angleMatrix = Matrix4x4.TRS(pos, rot, Handles.matrix.lossyScale);
@@ -27,8 +30,8 @@ namespace SolarSystem.Modules.GamePlay.Scripts.Static
                 //draw center
                 Handles.DrawWireDisc(Vector3.up * pointOffset, Vector3.up, radius);
                 Handles.DrawWireDisc(Vector3.down * pointOffset, Vector3.up, radius);
- 
             }
+#endif
         }
     }
 }

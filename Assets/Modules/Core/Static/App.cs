@@ -8,6 +8,7 @@ using SolarSystem.Modules.Core.Infrastructure;
 using SolarSystem.Modules.Core.Interfaces;
 using SolarSystem.Modules.Core.States;
 using StansAssets.SceneManagement;
+using UnityEngine;
 
 namespace SolarSystem.Modules.Core.Static
 {
@@ -34,11 +35,13 @@ namespace SolarSystem.Modules.Core.Static
 
         public static void RegisterModule(ApplicationModule module)
         {
+            Debug.Log($"Registering Module {module.Name}");
             s_serviceLocator.RegisterModule(module);
         }
 
         public static void UnregisterModule(string name)
         {
+            Debug.Log($"Unregistering Module {name}");
             s_serviceLocator.UnregisterModule(name);
         }
 

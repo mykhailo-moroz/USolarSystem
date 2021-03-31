@@ -1,5 +1,3 @@
-using System;
-
 namespace SolarSystem.Modules.GamePlay.Scripts.Static
 {
     public static class Game
