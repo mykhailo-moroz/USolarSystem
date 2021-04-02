@@ -6,5 +6,6 @@ namespace SolarSystem.Modules.GamePlay.Scripts.Systems.CharacterSystem
     {
         int Affiliation { get; }
         Transform AimPoint { get; set; }
+        ActorState State { get; set; }
     }
 }

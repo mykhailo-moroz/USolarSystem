@@ -51,9 +51,6 @@
                 <e p="GameTags.cs" t="Include" />
               </e>
               <e p="GamePlayModule.cs" t="Include" />
-              <e p="Interfaces" t="Include">
-                <e p="IInputService.cs" t="Include" />
-              </e>
               <e p="Managers" t="Include">
                 <e p="GameController.cs" t="Include" />
                 <e p="IGameController.cs" t="Include" />
@@ -61,20 +58,33 @@
               <e p="Static" t="Include">
                 <e p="Game.cs" t="Include" />
                 <e p="GizmosDrawingHelper.cs" t="Include" />
+                <e p="MathHelper.cs" t="Include" />
               </e>
               <e p="Systems" t="Include">
+                <e p="CameraSystem" t="Include">
+                  <e p="CameraService.cs" t="Include" />
+                  <e p="ICameraService.cs" t="Include" />
+                </e>
                 <e p="CharacterSystem" t="Include">
                   <e p="Actor.cs" t="Include" />
                   <e p="ActorAnimationStateController.cs" t="Include" />
+                  <e p="ActorState.cs" t="Include" />
                   <e p="IActor.cs" t="Include" />
                 </e>
                 <e p="InputSystem" t="Include">
-                  <e p="InputEventArgs.cs" t="Include" />
+                  <e p="IInputService.cs" t="Include" />
                   <e p="InputReceiver.cs" t="Include" />
                   <e p="InputService.cs" t="Include" />
+                  <e p="MousePositionInputEventArgs.cs" t="Include" />
+                  <e p="MovingInputEventArgs.cs" t="Include" />
                 </e>
                 <e p="Player" t="Include">
                   <e p="PlayerCharacterController.cs" t="Include" />
+                </e>
+                <e p="Shared" t="Include">
+                  <e p="Damageable.cs" t="Include" />
+                  <e p="Destructable.cs" t="Include" />
+                  <e p="Objective.cs" t="Include" />
                 </e>
                 <e p="SpawningSystem" t="Include">
                   <e p="ISpawningPoint.cs" t="Include" />
@@ -83,6 +93,10 @@
                 </e>
                 <e p="StatsSystem" t="Include">
                   <e p="ICharacterStat.cs" t="Include" />
+                </e>
+                <e p="WeaponSystem" t="Include">
+                  <e p="Weapon.cs" t="Include" />
+                  <e p="WeaponType.cs" t="Include" />
                 </e>
               </e>
             </e>

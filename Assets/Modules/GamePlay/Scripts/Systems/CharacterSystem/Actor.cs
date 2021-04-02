@@ -16,5 +16,7 @@ namespace SolarSystem.Modules.GamePlay.Scripts.Systems.CharacterSystem
             get { return m_aimPoint; }
             set { m_aimPoint = value; }
         }
+
+        public ActorState State { get; set; } = ActorState.Default;
     }
 }
