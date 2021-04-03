@@ -36,7 +36,9 @@ namespace SolarSystem.Modules.GamePlay.Scripts.Systems.Player
         private float m_rotationSpeed = 4.0f;
         [SerializeField]
         private float m_gravityValue = 9.8f;
-
+        [SerializeField]
+        private float m_aimPointRotatingRadius = 4.0f;
+        
         private ICameraService m_cameraService;
         private IInputService m_inputService;
         private CharacterController m_characterController;
@@ -54,7 +56,6 @@ namespace SolarSystem.Modules.GamePlay.Scripts.Systems.Player
             m_actor = GetComponent<IActor>();
 
             m_actorAimYOffset = m_actor.AimPoint.position.y;
-            
             m_characterController = GetComponent<CharacterController>();
         }
 

@@ -20,18 +20,25 @@ namespace SolarSystem.Modules.GamePlay.Scripts.Managers
 
         public void OnSceneLoaded()
         {
-            var module = new GamePlayModule(Camera.main);
-            m_gameplayModuleName = module.Name;
-            App.RegisterModule(module);
-
-            m_inputReceiver = GetComponent<InputReceiver>();
-            m_playerCharacter.SetActive(true);
-            var sceneService = App.Services.Get<ISceneService>();
-            sceneService.Load(AppConfig.GamePlayUISceneName, manager =>
+            try
             {
-                m_inputReceiver.LockInput(false);
-                Debug.Log("Gameplay UI loaded");
-            });
+                var module = new GamePlayModule(Camera.main);
+                m_gameplayModuleName = module.Name;
+                App.RegisterModule(module);
+
+                m_inputReceiver = GetComponent<InputReceiver>();
+                m_playerCharacter.SetActive(true);
+                var sceneService = App.Services.Get<ISceneService>();
+                sceneService.Load(AppConfig.GamePlayUISceneName, manager =>
+                {
+                    m_inputReceiver.LockInput(false);
+                    Debug.Log("Gameplay UI loaded");
+                });
+            }
+            catch (Exception e)
+            {
+                Debug.Log("Application or some of it's parts was not inited!");
+            }
         }
 
         public void OnSceneUnload()

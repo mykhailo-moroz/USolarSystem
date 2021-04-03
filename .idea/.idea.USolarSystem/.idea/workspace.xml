@@ -20,7 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd62b6a0-1505-465a-a07e-c93608f6e266" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Editor/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Editor/Scripts/EditorLanding.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Editor/Scripts/EditorLanding.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Editor/SolarSystem.Editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/Editor/SolarSystem.Editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponShootingComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponShootingComponent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scenes/Level01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scenes/Level01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/ActorAnimationStateController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/ActorAnimationStateController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem/InputReceiver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem/InputReceiver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/Player/PlayerCharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/Player/PlayerCharacterController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/SolarSystem.GamePlay.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/SolarSystem.GamePlay.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Landing/SolarSystem.Landing.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Landing/SolarSystem.Landing.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/UI/Gameplay/InGameUI.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/UI/Gameplay/InGameUI.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/UI/SolarSystem.UI.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/UI/SolarSystem.UI.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +67,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Modules/Editor/Scripts/EditorLanding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/351E49E2-A5BF-4FD6-BEAB-B458CE2255F3/d4/e055e298/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/6a/22539cb0/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -57,23 +86,27 @@
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CameraSystem/ICameraService.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CameraSystem/CameraService.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/GamePlayModule.cs" />
-      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/GameController.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/Shared/Damageable.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/Shared/Destructable.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/Shared/Objective.cs" />
-      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/Weapon.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/ActorState.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/IActor.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/Actor.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponType.cs" />
-      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/ActorAnimationStateController.cs" />
       <option value="$PROJECT_DIR$/Assets/ThirdParty/_Standard Assets/Characters/Scripts/Common/CharacterInput.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem/IInputService.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem/InputService.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem/MousePositionInputEventArgs.cs" />
-      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem/InputReceiver.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Static/MathHelper.cs" />
       <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/Player/PlayerCharacterController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/Weapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/Editor/Scripts/EditorPreLauncher.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/GameController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem/InputReceiver.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/Editor/Scripts/EditorLanding.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/ActorAnimationStateController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponShootingComponent.cs" />
+      <option value="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponData.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1i9ZUfhDvE195USSGCQwhvJLHYI" />
@@ -115,10 +148,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="28340">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="28340" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -158,6 +191,9 @@
       <workItem from="1617262711942" duration="13940000" />
       <workItem from="1617300398317" duration="3222000" />
       <workItem from="1617354107296" duration="11908000" />
+      <workItem from="1617378809509" duration="3549000" />
+      <workItem from="1617391937629" duration="2416000" />
+      <workItem from="1617451349006" duration="2439000" />
     </task>
     <servers />
   </component>

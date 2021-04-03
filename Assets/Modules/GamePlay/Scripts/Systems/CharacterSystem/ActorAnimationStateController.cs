@@ -38,17 +38,6 @@ namespace SolarSystem.Modules.GamePlay.Scripts.Systems.CharacterSystem
             m_animator.SetFloat("VelocityX", m_velocityX);
             m_animator.SetFloat("VelocityZ", m_velocityZ);
             m_animator.SetFloat("TurningAngle", m_turningAngle);
-
-            if (m_isAiming)
-            {
-                var aimingLayer = m_animator.GetLayerIndex("RifleAiming");
-                //m_animator.SetLayerWeight(aimingLayer,  0.5f);
-            }
-            else
-            {
-                var aimingLayer = m_animator.GetLayerIndex("RifleAiming");
-                m_animator.SetLayerWeight(aimingLayer,  0f);
-            }
         }
     }
 }

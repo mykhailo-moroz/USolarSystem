@@ -45,6 +45,12 @@
               <e p="App.cs" t="Include" />
             </e>
           </e>
+          <e p="Editor" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="EditorLanding.cs" t="Include" />
+            </e>
+            <e p="SolarSystem.Editor.asmdef" t="Include" />
+          </e>
           <e p="GamePlay" t="Include">
             <e p="Scripts" t="Include">
               <e p="Config" t="Include">
@@ -96,6 +102,8 @@
                 </e>
                 <e p="WeaponSystem" t="Include">
                   <e p="Weapon.cs" t="Include" />
+                  <e p="WeaponData.cs" t="Include" />
+                  <e p="WeaponShootingComponent.cs" t="Include" />
                   <e p="WeaponType.cs" t="Include" />
                 </e>
               </e>
@@ -400,6 +408,7 @@
         </e>
       </e>
       <e p="SolarSystem.Core.csproj" t="IncludeRecursive" />
+      <e p="SolarSystem.Editor.csproj" t="IncludeRecursive" />
       <e p="SolarSystem.GamePlay.csproj" t="IncludeRecursive" />
       <e p="SolarSystem.Landing.csproj" t="IncludeRecursive" />
       <e p="SolarSystem.UI.csproj" t="IncludeRecursive" />

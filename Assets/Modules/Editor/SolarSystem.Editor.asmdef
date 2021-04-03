@@ -1,10 +1,10 @@
 {
-    "name": "SolarSystem.UI",
+    "name": "SolarSystem.Editor",
     "rootNamespace": "",
     "references": [
         "SolarSystem.Core",
-        "StansAssets.SceneManagement",
-        "MikeAssets.ModularServiceLocator"
+        "MikeAssets.ModularServiceLocator",
+        "StansAssets.SceneManagement"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

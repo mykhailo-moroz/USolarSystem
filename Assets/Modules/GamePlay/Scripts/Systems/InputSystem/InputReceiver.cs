@@ -1,3 +1,4 @@
+using System;
 using MikeAssets.ModularServiceLocator.Static;
 using SolarSystem.Modules.Core.Static;
 using SolarSystem.Modules.GamePlay.Scripts.Systems.InputSystem;
@@ -12,7 +13,14 @@ namespace SolarSystem.Modules.GamePlay.Scripts.Systems.InputSsytem
 
         private void Start()
         {
-            m_inputService = App.Services.Get<IInputService>();
+            try
+            {
+                m_inputService = App.Services.Get<IInputService>();
+            }
+            catch (Exception e)
+            {
+                Debug.Log(e.Message);
+            }
         }
 
         public void LockInput(bool lockInput)
