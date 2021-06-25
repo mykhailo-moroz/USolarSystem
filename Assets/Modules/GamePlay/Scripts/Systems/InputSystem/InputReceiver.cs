@@ -1,5 +1,5 @@
 using System;
-using MikeAssets.ModularServiceLocator.Static;
+using MikeAssets.ModularServiceLocator.Runtime;
 using SolarSystem.Modules.Core.Static;
 using SolarSystem.Modules.GamePlay.Scripts.Systems.InputSystem;
 using UnityEngine;

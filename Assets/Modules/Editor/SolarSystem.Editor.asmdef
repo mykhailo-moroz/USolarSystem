@@ -4,7 +4,8 @@
     "references": [
         "SolarSystem.Core",
         "MikeAssets.ModularServiceLocator",
-        "StansAssets.SceneManagement"
+        "StansAssets.SceneManagement",
+        "SolarSystem.GamePlay"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -1,4 +1,5 @@
-using MikeAssets.ModularServiceLocator.Modules;
+
+using MikeAssets.ModularServiceLocator.Runtime;
 
 namespace SolarSystem.Modules.Core.Abstract
 {

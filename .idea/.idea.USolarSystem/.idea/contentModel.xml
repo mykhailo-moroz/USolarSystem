@@ -47,7 +47,9 @@
           </e>
           <e p="Editor" t="Include">
             <e p="Scripts" t="Include">
+              <e p="CreateWeaponWindow.cs" t="Include" />
               <e p="EditorLanding.cs" t="Include" />
+              <e p="WeaponEditor.cs" t="Include" />
             </e>
             <e p="SolarSystem.Editor.asmdef" t="Include" />
           </e>
@@ -103,7 +105,9 @@
                 <e p="WeaponSystem" t="Include">
                   <e p="Weapon.cs" t="Include" />
                   <e p="WeaponData.cs" t="Include" />
+                  <e p="WeaponRarity.cs" t="Include" />
                   <e p="WeaponShootingComponent.cs" t="Include" />
+                  <e p="WeaponStorage.cs" t="Include" />
                   <e p="WeaponType.cs" t="Include" />
                 </e>
               </e>
@@ -149,6 +153,7 @@
               <e p="Providers" t="Include">
                 <e p="BindingProviderBase.cs" t="Include" />
                 <e p="ConstantBindingProvider.cs" t="Include" />
+                <e p="SingletoneBindingProvider.cs" t="Include" />
                 <e p="TransientBindingProvider.cs" t="Include" />
               </e>
               <e p="ResolveRequest.cs" t="Include" />
@@ -157,6 +162,7 @@
               <e p="BindingType.cs" t="Include" />
             </e>
             <e p="Exceptions" t="Include">
+              <e p="CyclicDependencyException.cs" t="Include" />
               <e p="MissingConstructorParamException.cs" t="Include" />
             </e>
             <e p="Interfaces" t="Include">

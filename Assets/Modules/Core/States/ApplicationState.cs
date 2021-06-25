@@ -1,4 +1,4 @@
-﻿using MikeAssets.ModularServiceLocator.Static;
+﻿using MikeAssets.ModularServiceLocator.Runtime;
 using SolarSystem.Modules.Core.Enums;
 using SolarSystem.Modules.Core.Interfaces;
 using SolarSystem.Modules.Core.Static;

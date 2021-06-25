@@ -1,7 +1,6 @@
 ﻿using System;
-using MikeAssets.ModularServiceLocator.Interfaces;
-using MikeAssets.ModularServiceLocator.Locator;
-using MikeAssets.ModularServiceLocator.Static;
+using MikeAssets.ModularServiceLocator;
+using MikeAssets.ModularServiceLocator.Runtime;
 using SolarSystem.Modules.Core.Abstract;
 using SolarSystem.Modules.Core.Enums;
 using SolarSystem.Modules.Core.Infrastructure;

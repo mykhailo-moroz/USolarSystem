@@ -1,5 +1,5 @@
 ﻿using System;
-using MikeAssets.ModularServiceLocator.Static;
+using MikeAssets.ModularServiceLocator.Runtime;
 using SolarSystem.Modules.Core.Config;
 using SolarSystem.Modules.Core.Interfaces;
 using SolarSystem.Modules.Core.Static;
