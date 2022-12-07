@@ -20,77 +20,106 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd62b6a0-1505-465a-a07e-c93608f6e266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Editor/Scripts/CreateWeaponWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Editor/Scripts/CreateWeaponWindow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Editor/Scripts/WeaponEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Editor/Scripts/WeaponEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Hat.obj.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Hat.obj.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Diffuse.tga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Diffuse.tga.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Gloss.tga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Gloss.tga.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/M_Hat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/M_Hat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Normals.tga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Normals.tga.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Specular.tga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Specular.tga.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/internal_ground_ao_texture.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/internal_ground_ao_texture.jpeg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponRarity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponRarity.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponStorage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponStorage.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/weapon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/weapon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/weapon_list_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/weapon_list_icon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/weapons.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/SingletoneBindingProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/SingletoneBindingProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Exceptions/CyclicDependencyException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Exceptions/CyclicDependencyException.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.USolarSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Abstract/ApplicationModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Abstract/ApplicationModule.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/States/ApplicationState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/States/ApplicationState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Core/Static/App.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Editor/Scripts/EditorLanding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Editor/Scripts/EditorLanding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Editor/SolarSystem.Editor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Editor/SolarSystem.Editor.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Editor/Scripts/CreateWeaponWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Editor/Scripts/CreateWeaponWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Editor/Scripts/WeaponEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Editor/Scripts/WeaponEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Breathing Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Breathing Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Jog Strafe Left.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Jog Strafe Left.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Jog Strafe Right.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Jog Strafe Right.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Left Strafe Walking.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Left Strafe Walking.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Left Strafe.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Left Strafe.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Right Strafe Walking.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Right Strafe Walking.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Right Strafe.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Right Strafe.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Running Backward.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Running Backward.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Running.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Running.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Walk Strafe Left.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Walk Strafe Left.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Walking Backwards.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Walking Backwards.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Walking.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Anims/ybot@Walking.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Hat.obj.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Hat.obj.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/StrafeAnims.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/StrafeAnims/m@RapidStrafeRight.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/StrafeAnims/m@RapidStrafeRight.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Diffuse.tga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Diffuse.tga.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Gloss.tga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Gloss.tga.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/M_Hat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/M_Hat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Normals.tga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Normals.tga.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Specular.tga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/Specular.tga.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/internal_ground_ao_texture.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/Textures/internal_ground_ao_texture.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/YBotAimingMask.mask" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/YBotAimingMask.mask.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/YBotAnimatorController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/YBotAnimatorController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/YBotTurnMask.mask" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/YBotTurnMask.mask.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/ybot.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/ybot.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/ybot@Idle Aiming.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/ybot@Idle Aiming.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/ybot@Standing Turn 90 Left.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/ybot@Standing Turn 90 Left.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/ybot@Standing Turn 90 Right.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Art/Models/ybot@Standing Turn 90 Right.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scenes/Level01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scenes/Level01.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Managers/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/Actor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/Actor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/ActorAnimationStateController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/ActorAnimationStateController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/ActorState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/ActorState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem/InputReceiver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/InputSystem/InputReceiver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/Player/PlayerCharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/Player/PlayerCharacterController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Landing/LandingController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Binding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Binding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingBuilderBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingBuilderBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingConfiguration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingRoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/BindingRoot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/BindingProviderBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/BindingProviderBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/ConstantBindingProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/ConstantBindingProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/TransientBindingProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/Providers/TransientBindingProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/ResolveRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Bindings/ResolveRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Enums/BindingType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Enums/BindingType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Exceptions/MissingConstructorParamException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Exceptions/MissingConstructorParamException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingConfiguration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingRoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IBindingRoot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IReadOnlyBindingRoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IReadOnlyBindingRoot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IResolutionRoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IResolutionRoot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IResolveRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IResolveRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Interfaces/IServiceLocator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator/ServiceLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Locator/ServiceLocator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules/LocatorModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Modules/LocatorModule.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Static/ResolutionRootExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Runtime/Static/ResolutionRootExtension.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Tests/ServiceLocatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.mikeassets.modular-service-locator/Tests/ServiceLocatorTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/IActor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/CharacterSystem/IActor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/Player/PlayerCharacterController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/Player/PlayerCharacterController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/Weapon.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/Weapon.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponRarity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponRarity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponShootingComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponShootingComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponStorage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponStorage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/GamePlay/Scripts/Systems/WeaponSystem/WeaponType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.progrids/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.progrids/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,11 +146,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Modules/Editor/Scripts/EditorLanding.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/351E49E2-A5BF-4FD6-BEAB-B458CE2255F3/d4/e055e298/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/6a/22539cb0/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Modules/UI/MainMenu/MainMenuController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/69/c448908c/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.4/Runtime/Behaviours/CinemachineBrain.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -178,6 +203,9 @@
       <option value="$PROJECT_DIR$/Assets/Modules/Core/States/ApplicationState.cs" />
     </changedPaths>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1i9ZUfhDvE195USSGCQwhvJLHYI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -187,18 +215,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
-    <property name="Discover.Launch.Via.Unity" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.build.unityPlugin" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/../Build/SolarSystem\USolarSystem.exe" />
@@ -208,10 +233,19 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Repositories\USolarSystem -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\Repositories\USolarSystem" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -221,6 +255,7 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -268,12 +303,14 @@
       <workItem from="1623343000406" duration="4264000" />
       <workItem from="1623613732505" duration="523000" />
       <workItem from="1624638511074" duration="1988000" />
+      <workItem from="1670430452001" duration="550000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +323,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

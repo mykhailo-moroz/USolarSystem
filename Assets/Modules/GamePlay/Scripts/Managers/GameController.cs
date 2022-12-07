@@ -26,8 +26,6 @@ namespace SolarSystem.Modules.GamePlay.Scripts.Managers
                 m_gameplayModuleName = module.Name;
                 App.RegisterModule(module);
 
-                m_inputReceiver = GetComponent<InputReceiver>();
-                m_playerCharacter.SetActive(true);
                 var sceneService = App.Services.Get<ISceneService>();
                 sceneService.Load(AppConfig.GamePlayUISceneName, manager =>
                 {
@@ -43,8 +41,6 @@ namespace SolarSystem.Modules.GamePlay.Scripts.Managers
 
         public void OnSceneUnload()
         {
-            m_playerCharacter.SetActive(false);
-            
             App.UnregisterModule(m_gameplayModuleName);
             var sceneService = App.Services.Get<ISceneService>();
             sceneService.Unload(AppConfig.GamePlayUISceneName, () =>
